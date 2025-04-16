@@ -1,23 +1,30 @@
 import { useState } from "react";
 import { FaBars, FaFacebook, FaInstagram, FaTimes } from "react-icons/fa";
 import { motion, AnimatePresence } from "framer-motion";
+import { useLocation, useNavigate } from "react-router-dom";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const location = useLocation();
+  const navigate = useNavigate();
 
   const navLinks = [
     { name: "Home", id: "home" },
     { name: "About", id: "about" },
     { name: "Works", id: "works" },
-    { name: "Contact", id: "contact" },
+    { name: "Contact", path: "/contact" },
   ];
 
   const scrollToSection = (id) => {
-    const section = document.getElementById(id);
-    if (section) {
-      section.scrollIntoView({ behavior: "smooth" });
-      setIsOpen(false); // Close menu on mobile
+    if (location.pathname !== "/") {
+      navigate("/", { state: { scrollTo: id } });
+    } else {
+      const section = document.getElementById(id);
+      if (section) {
+        section.scrollIntoView({ behavior: "smooth" });
+      }
     }
+    setIsOpen(false);
   };
 
   return (
@@ -29,10 +36,12 @@ const Navbar = () => {
         <div className="hidden md:flex space-x-8">
           {navLinks.map((link) => (
             <motion.button
+              key={link.name}
               whileHover={{ scale: 1.1, color: "#fbbf24" }}
               transition={{ type: "spring", stiffness: 300 }}
-              key={link.name}
-              onClick={() => scrollToSection(link.id)}
+              onClick={() =>
+                link.path ? navigate(link.path) : scrollToSection(link.id)
+              }
               className="text-xl text-white font-medium"
             >
               {link.name}
@@ -64,13 +73,15 @@ const Navbar = () => {
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: -10 }}
             transition={{ duration: 0.2 }}
-            className="md:hidden flex flex-col items-center absolute top-16 right-0  rounded-md bg-black/50 shadow-lg px-10 py-4 space-y-2"
+            className="md:hidden flex flex-col items-center absolute top-16 right-0 rounded-md bg-black/50 shadow-lg px-10 py-4 space-y-2"
           >
             {navLinks.map((link) => (
               <motion.button
                 whileTap={{ scale: 0.95 }}
                 key={link.name}
-                onClick={() => scrollToSection(link.id)}
+                onClick={() =>
+                  link.path ? navigate(link.path) : scrollToSection(link.id)
+                }
                 className="block w-full text-white font-medium"
               >
                 {link.name}
