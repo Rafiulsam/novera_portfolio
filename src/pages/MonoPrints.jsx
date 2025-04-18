@@ -81,7 +81,7 @@ const MonoPrints = () => {
           <p className='text-white text-justify px-1'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui non repudiandae odio, recusandae facere unde vitae pariatur a mollitia consequuntur ipsam minus amet laboriosam tempora odit possimus minima autem tenetur nemo illum consectetur. Delectus dolor et facilis id sapiente quo quas praesentium, blanditiis maiores! Odit itaque quam obcaecati, aut corporis ex maiores quo ea reprehenderit, distinctio repellendus</p>
         </motion.div>
       </section>
-      <section className='flex justify-between p-20'>
+      <section className='md:flex justify-between p-10 md:p-20'>
         <div className='transition-transform duration-200 hover:scale-105'>
           <motion.img
             initial={{ opacity: 0, scale: 0.8 }}
@@ -91,7 +91,7 @@ const MonoPrints = () => {
             onClick={() => setZoomedImage(selectedWork.coverImage)}
             src={selectedWork.coverImage} alt="" className='object-contain cursor-pointer' />
         </div>
-        <div className='flex flex-col justify-between w-1/2 text-start'>
+        <div className='flex flex-col justify-between md:w-1/2 text-start'>
           <div>
             <motion.h1
               initial={{ opacity: 0, y: -50 }}
@@ -119,7 +119,7 @@ const MonoPrints = () => {
                   src={texture}
                   onClick={() => setZoomedImage(texture)}
                   alt={`Texture ${i + 1}`}
-                  className="w-48 h-48 rounded-full object-cover border-2 border-gray-300 shadow-lg cursor-pointer"
+                  className="w-20 h-20 md:w-48 md:h-48 rounded-full object-cover border-2 border-gray-300 shadow-lg cursor-pointer"
                 />
               </div>
             ))
@@ -129,7 +129,7 @@ const MonoPrints = () => {
       </section>
 
       {/* Artworks */}
-      <section className="p-6 md:p-20 bg-gray-100 min-h-screen grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
+      <section className="p-6 md:p-20 bg-gray-100 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-10">
         {selectedWork.artWorks && selectedWork.artWorks.length > 0 ? (
           selectedWork.artWorks.map((img, i) => (
             <div className={`transition-transform duration-200 hover:scale-105 col-span-1 ${spans[i] ? "sm:col-span-2" : ""}`} key={i}>

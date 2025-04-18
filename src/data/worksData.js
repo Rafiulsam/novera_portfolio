@@ -30,11 +30,10 @@ export default [
       "https://t3.ftcdn.net/jpg/02/44/56/70/360_F_244567019_SRb5i27LHFzblS6dpOhDUu8nsdRgmgh5.jpg",
     ],
     series: "Monoprint Series",
-    coverImage: "https://ik.imagekit.io/5lfj67b0tg/Cover/Dancing_with_the_wind_A_P.jpg?",
+    coverImage: "https://ik.imagekit.io/5lfj67b0tg/New%20folder/MONOPRINTS/Dancing%20with%20the%20Wind/IMG_1200%20c.JPG?tr=w-400,q-60,fo-auto",
     artWorks: [
       "https://ik.imagekit.io/5lfj67b0tg/New%20folder/MONOPRINTS/Dancing%20with%20the%20Wind/IMG_1274.JPG?",
       "https://ik.imagekit.io/5lfj67b0tg/New%20folder/MONOPRINTS/Dancing%20with%20the%20Wind/9X4A1162%201.JPG?",
-      "https://ik.imagekit.io/5lfj67b0tg/New%20folder/MONOPRINTS/Dancing%20with%20the%20Wind/IMG_1200%20c.JPG?",
       "https://ik.imagekit.io/5lfj67b0tg/New%20folder/MONOPRINTS/Dancing%20with%20the%20Wind/9X4A1167%20c.JPG?",
       "https://ik.imagekit.io/5lfj67b0tg/New%20folder/MONOPRINTS/Dancing%20with%20the%20Wind/IMG_1198%20c.JPG?",
     ],
@@ -49,7 +48,6 @@ export default [
     series: "Monoprint Series",
     coverImage: "https://ik.imagekit.io/5lfj67b0tg/New%20folder/MONOPRINTS/_Moruvumi_%20(Desert)/IMG_1179.JPG?tr=w-400,q-60,fo-auto",
     artWorks: [
-      "https://ik.imagekit.io/5lfj67b0tg/New%20folder/MONOPRINTS/_Moruvumi_%20(Desert)/IMG_1179.JPG?",
       "https://ik.imagekit.io/5lfj67b0tg/New%20folder/MONOPRINTS/_Moruvumi_%20(Desert)/IMG_1429.JPG?",
       "https://ik.imagekit.io/5lfj67b0tg/New%20folder/MONOPRINTS/_Moruvumi_%20(Desert)/IMG_1428.JPG?",
       "https://ik.imagekit.io/5lfj67b0tg/New%20folder/MONOPRINTS/_Moruvumi_%20(Desert)/IMG_1171.JPG?",
@@ -64,7 +62,7 @@ export default [
       "https://t3.ftcdn.net/jpg/02/44/56/70/360_F_244567019_SRb5i27LHFzblS6dpOhDUu8nsdRgmgh5.jpg",
     ],
     series: "Monoprint Series",
-    coverImage: "https://ik.imagekit.io/5lfj67b0tg/Cover/Shopno_theke_1_A_P.jpg?",
+    coverImage: "https://ik.imagekit.io/5lfj67b0tg/New%20folder/MONOPRINTS/9/_Shopno%20Theke%201_%20(From%20dreams%201)/9X4A1203.JPG?tr=w-400,q-60,fo-auto",
   },
   {
     title: "Forest Girl",
@@ -78,7 +76,6 @@ export default [
     artWorks: [
       "https://ik.imagekit.io/5lfj67b0tg/New%20folder/MONOPRINTS/Forest%20Girl/IMG_1255.JPG?",
       "https://ik.imagekit.io/5lfj67b0tg/New%20folder/MONOPRINTS/Forest%20Girl/IMG_1265.JPG?",
-      "https://ik.imagekit.io/5lfj67b0tg/New%20folder/MONOPRINTS/Forest%20Girl/IMG_1245.JPG?",
       "https://ik.imagekit.io/5lfj67b0tg/New%20folder/MONOPRINTS/Forest%20Girl/IMG_1259.JPG?",
       "https://ik.imagekit.io/5lfj67b0tg/New%20folder/MONOPRINTS/Forest%20Girl/IMG_1254.JPG?",
       "https://ik.imagekit.io/5lfj67b0tg/New%20folder/MONOPRINTS/Forest%20Girl/IMG_1242.JPG?",
@@ -105,7 +102,6 @@ export default [
       "https://ik.imagekit.io/5lfj67b0tg/New%20folder/MONOPRINTS/July%2024%20Spirits/IMG_1297.JPG?",
       "https://ik.imagekit.io/5lfj67b0tg/New%20folder/MONOPRINTS/July%2024%20Spirits/IMG_1295.JPG?",
       "https://ik.imagekit.io/5lfj67b0tg/New%20folder/MONOPRINTS/July%2024%20Spirits/IMG_1277.JPG?",
-      "https://ik.imagekit.io/5lfj67b0tg/New%20folder/MONOPRINTS/July%2024%20Spirits/IMG_1282.JPG?",
       "https://ik.imagekit.io/5lfj67b0tg/New%20folder/MONOPRINTS/July%2024%20Spirits/IMG_1302.JPG?",
       "https://ik.imagekit.io/5lfj67b0tg/New%20folder/MONOPRINTS/July%2024%20Spirits/IMG_1288.JPG?",
       "https://ik.imagekit.io/5lfj67b0tg/New%20folder/MONOPRINTS/July%2024%20Spirits/IMG_1285.JPG?",
@@ -139,7 +135,7 @@ export default [
       "https://t3.ftcdn.net/jpg/02/44/56/70/360_F_244567019_SRb5i27LHFzblS6dpOhDUu8nsdRgmgh5.jpg",
     ],
     series: "Monoprint Series",
-    coverImage: "https://ik.imagekit.io/5lfj67b0tg/Cover/Neelima%202_A_P.jpg?",
+    coverImage: "https://ik.imagekit.io/5lfj67b0tg/New%20folder/MONOPRINTS/12/Neelima%202%20.JPG?tr=w-400,q-60,fo-auto",
   },
   {
     title: "Womanhood",
@@ -170,9 +166,8 @@ export default [
       "https://t3.ftcdn.net/jpg/02/44/56/70/360_F_244567019_SRb5i27LHFzblS6dpOhDUu8nsdRgmgh5.jpg",
     ],
     series: "Monoprint Series",
-    coverImage: "https://ik.imagekit.io/5lfj67b0tg/Cover/Dash_A_P.jpg?",
+    coverImage: "https://ik.imagekit.io/5lfj67b0tg/New%20folder/MONOPRINTS/_Dash_%20(Slaves)/IMG_1178.JPG?tr=w-400,q-60,fo-auto",
     artWorks: [
-      "https://ik.imagekit.io/5lfj67b0tg/New%20folder/MONOPRINTS/_Dash_%20(Slaves)/IMG_1178.JPG?",
       "https://ik.imagekit.io/5lfj67b0tg/New%20folder/MONOPRINTS/_Dash_%20(Slaves)/IMG_1183.JPG?",
       "https://ik.imagekit.io/5lfj67b0tg/New%20folder/MONOPRINTS/_Dash_%20(Slaves)/IMG_1174.JPG?",
       "https://ik.imagekit.io/5lfj67b0tg/New%20folder/MONOPRINTS/_Dash_%20(Slaves)/IMG_1170.JPG?",

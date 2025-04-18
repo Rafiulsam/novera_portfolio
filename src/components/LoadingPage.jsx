@@ -5,7 +5,7 @@ const dots = ["#385b34", "#927c57", "#003153"];
 
 const LoadingPage = () => {
   return (
-    <div className="min-h-screen flex items-center justify-center">
+    <div className="fixed inset-0 bg-white z-[9999] min-h-screen flex items-center justify-center">
         <div className="flex justify-center gap-6">
           {dots.map((color, i) => (
             <motion.span

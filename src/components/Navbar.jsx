@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { FaBars, FaFacebook, FaInstagram, FaTimes } from "react-icons/fa";
+import { FaBars, FaFacebook, FaFacebookSquare, FaInstagram, FaTimes } from "react-icons/fa";
 import { motion, AnimatePresence } from "framer-motion";
 import { useLocation, useNavigate } from "react-router-dom";
 
@@ -51,8 +51,8 @@ const Navbar = () => {
 
         {/* Social Icons */}
         <div className="hidden md:flex space-x-4 text-white">
-          <a href=""><FaInstagram size={25} /></a>
-          <a href=""><FaFacebook size={25} /></a>
+          <a target="_blank" href="https://www.instagram.com/noverahasannikkon1998/"><FaInstagram size={25} /></a>
+          <a target="_blank" href="https://www.facebook.com/novera.hasannikkon.3"><FaFacebookSquare size={25} /></a>
         </div>
 
         {/* Mobile Toggle */}
@@ -88,8 +88,8 @@ const Navbar = () => {
               </motion.button>
             ))}
             <div className="flex space-x-4 text-white mt-10">
-              <a href=""><FaInstagram size={25} /></a>
-              <a href=""><FaFacebook size={25} /></a>
+              <a target="_blank" href="https://www.instagram.com/noverahasannikkon1998/"><FaInstagram size={25} /></a>
+              <a target="_blank" href="https://www.facebook.com/novera.hasannikkon.3"><FaFacebookSquare size={25} /></a>
             </div>
           </motion.div>
         )}
