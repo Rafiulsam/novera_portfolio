@@ -10,14 +10,18 @@ function App() {
   useEffect(() => {
     if (location.state?.scrollTo) {
       const id = location.state.scrollTo;
-      setTimeout(() => {
-        const section = document.getElementById(id);
-        if (section) {
-          section.scrollIntoView({ behavior: "smooth" });
-        }
-      }, 100); // delay ensures DOM is ready
+  
+      // Only scroll if navigation came from Link or useNavigate
+      if (performance.getEntriesByType("navigation")[0]?.type === "navigate") {
+        setTimeout(() => {
+          const section = document.getElementById(id);
+          if (section) {
+            section.scrollIntoView({ behavior: "smooth" });
+          }
+        }, 500);
+      }
     }
-  }, [location]);
+  }, [location]);  
 
   return (
     <>

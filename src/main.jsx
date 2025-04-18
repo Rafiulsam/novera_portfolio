@@ -1,23 +1,28 @@
-import React from "react";
+import React, { lazy, Suspense } from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import App from "./App.jsx";
-import MonoPrints from "./pages/MonoPrints.jsx";
-import Layout from "./layouts/Layout.jsx";
+// import App from "./App.jsx";
+// import Layout from "./layouts/Layout.jsx";
+import LoadingPage from "./components/LoadingPage.jsx";
 
+const MonoPrints = lazy(() => import("./pages/MonoPrints"));
+const App = lazy(() => import("./App"));
+const Layout = lazy(() => import("./layouts/Layout"));
 
 const root = document.getElementById("root");
 
 ReactDOM.createRoot(root).render(
   <React.StrictMode>
     <BrowserRouter>
-      <Routes>
-        <Route element={<Layout />}>
-          <Route path="/" element={<App />} />
-          <Route path="/monoprints" element={<MonoPrints />} />
-        </Route>
-      </Routes>
+      <Suspense fallback={<LoadingPage />}>
+        <Routes>
+          <Route element={<Layout />}>
+            <Route path="/" element={<App />} />
+            <Route path="/monoprints/:series" element={<MonoPrints />} />
+          </Route>
+        </Routes>
+      </Suspense>
     </BrowserRouter>
   </React.StrictMode>
 );
