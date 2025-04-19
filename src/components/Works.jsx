@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import worksData from '../data/worksData';
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
+import { optimizeImageUrl } from '../utils/optimizeImageUrl';
 
 const Works = () => {
   const [spans, setSpans] = useState({});
@@ -44,7 +45,7 @@ const Works = () => {
                 
               >
                 <img
-                  src={art.coverImage}
+                  src={optimizeImageUrl(art.coverImage)}
                   alt={art.title}
                   onLoad={(e) => handleImageLoad(e, i)}
                   onContextMenu={(e) => e.preventDefault()}
