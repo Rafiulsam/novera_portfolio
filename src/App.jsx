@@ -1,5 +1,5 @@
-import { useEffect } from "react";
-import { useLocation } from "react-router-dom";
+import { useEffect, useRef } from "react";
+import { useLocation, useNavigationType  } from "react-router-dom";
 import Home from './components/Home'
 import About from './components/About'
 import Works from './components/Works'
@@ -7,22 +7,27 @@ import OtherWorks from "./components/OtherWorks";
 
 function App() {
   const location = useLocation();
+  const navigationType = useNavigationType(); 
+  const scrolledRef = useRef(false);
 
   useEffect(() => {
-    if (location.state?.scrollTo) {
+    if (
+      !scrolledRef.current &&
+      navigationType === "PUSH" &&
+      location.state?.scrollTo
+    ) {
+      scrolledRef.current = true;
+
       const id = location.state.scrollTo;
-  
-      // Only scroll if navigation came from Link or useNavigate
-      if (performance.getEntriesByType("navigation")[0]?.type === "navigate") {
-        setTimeout(() => {
-          const section = document.getElementById(id);
-          if (section) {
-            section.scrollIntoView({ behavior: "smooth" });
-          }
-        }, 500);
-      }
+      const section = document.getElementById(id);
+
+      setTimeout(() => {
+        if (section) {
+          section.scrollIntoView({ behavior: "smooth" });
+        }
+      }, 100);
     }
-  }, [location]);  
+  }, [location, navigationType]);
 
   return (
     <>

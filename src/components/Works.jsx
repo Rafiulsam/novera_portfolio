@@ -41,8 +41,6 @@ const Works = () => {
             >
               <Link
                 to={`/monoprints/${art.title.replace(/\s+/g, '-').toLowerCase()}`}
-
-
               >
                 <img
                   src={optimizeImageUrl(art.coverImage)}
