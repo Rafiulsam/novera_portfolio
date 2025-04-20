@@ -5,6 +5,8 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Layout from "./layouts/Layout.jsx";
 import LoadingPage from "./components/LoadingPage.jsx";
 import ErrorPage from "./pages/ErrorPage.jsx";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 const MonoPrints = lazy(() => import("./pages/MonoPrints"));
 const App = lazy(() => import("./App"));
