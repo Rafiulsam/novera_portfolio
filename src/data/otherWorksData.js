@@ -22,7 +22,7 @@ export default [
         media: "Woodcut",
         coverImage:"https://ik.imagekit.io/5lfj67b0tg/New%20folder/WOODCUT/IMG_1394.JPG?tr=w-250,q-60,fo-auto",
         artWorks:[
-            
+            "https://ik.imagekit.io/5lfj67b0tg/New%20folder/WOODCUT/IMG_1394.JPG?",
              "https://ik.imagekit.io/5lfj67b0tg/New%20folder/WOODCUT/2/IMG_1463.JPG?updatedAt=1744739709975",
             "https://ik.imagekit.io/5lfj67b0tg/New%20folder/WOODCUT/IMG_1376.JPG?updatedAt=1744739708697",
             "https://ik.imagekit.io/5lfj67b0tg/New%20folder/WOODCUT/IMG_1370.JPG?updatedAt=1744739707928",
@@ -53,6 +53,7 @@ export default [
         media: "Plate Lithography",
         coverImage:"https://ik.imagekit.io/5lfj67b0tg/New%20folder/PLATE%20LITHOGRAPHY/1/IMG_1457.JPG?tr=w-250,q-60,fo-auto",
         artWorks:[
+            "https://ik.imagekit.io/5lfj67b0tg/New%20folder/PLATE%20LITHOGRAPHY/1/IMG_1457.JPG?",
             "https://ik.imagekit.io/5lfj67b0tg/New%20folder/PLATE%20LITHOGRAPHY/1/IMG_1468.JPG?updatedAt=1744739770081",
             "https://ik.imagekit.io/5lfj67b0tg/New%20folder/PLATE%20LITHOGRAPHY/1/IMG_1467.JPG?updatedAt=1744739767871",
             "https://ik.imagekit.io/5lfj67b0tg/New%20folder/PLATE%20LITHOGRAPHY/1/IMG_1329.JPG?updatedAt=1744739761259",
@@ -71,6 +72,7 @@ export default [
         media: "Intaglio Process",
         coverImage:"https://ik.imagekit.io/5lfj67b0tg/New%20folder/INTAGLIO%20PROCESS/A.P%20ETCHING%20&%20AQUATINT.JPG?tr=w-250,q-60,fo-auto",
         artWorks:[
+            "https://ik.imagekit.io/5lfj67b0tg/New%20folder/INTAGLIO%20PROCESS/A.P%20ETCHING%20&%20AQUATINT.JPG?",
             "https://ik.imagekit.io/5lfj67b0tg/New%20folder/INTAGLIO%20PROCESS/ETCHING.JPG?",
             "https://ik.imagekit.io/5lfj67b0tg/New%20folder/INTAGLIO%20PROCESS/DRY%20POINT%20(2).JPG?",
             "https://ik.imagekit.io/5lfj67b0tg/New%20folder/INTAGLIO%20PROCESS/DRY%20POINT.JPG?",

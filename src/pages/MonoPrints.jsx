@@ -65,7 +65,15 @@ const MonoPrints = () => {
 
       {/* Cover Image and Info */}
       <section className='md:flex justify-between p-10 md:p-20'>
-        <PhotoProvider>
+        <PhotoProvider
+          onVisibleChange={(visible) => {
+            if (visible) {
+              document.addEventListener("contextmenu", handleContextMenu);
+            } else {
+              document.removeEventListener("contextmenu", handleContextMenu);
+            }
+          }}
+        >
           <div className='transition-transform duration-200 hover:scale-105'>
             <PhotoView src={optimizeImageUrl(selectedWork.coverImage, "zoom")}>
               <motion.img
@@ -99,7 +107,15 @@ const MonoPrints = () => {
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque debitis laboriosam fuga suscipit. Et, accusantium earum enim, beatae, facere eligendi delectus aperiam nulla reiciendis incidunt ipsum culpa illum maiores. Quidem voluptas eaque autem corrupti provident consectetur repudiandae, sint tenetur quis qui adipisci debitis, ab architecto tempora nam ex cupiditate ea accusantium odit nobis. Sequi possimus unde laborum. Perspiciatis et illo vitae voluptate ut, deleniti nesciunt, cum mollitia explicabo totam ipsa?
             </motion.p>
           </div>
-          <PhotoProvider>
+          <PhotoProvider
+            onVisibleChange={(visible) => {
+              if (visible) {
+                document.addEventListener("contextmenu", handleContextMenu);
+              } else {
+                document.removeEventListener("contextmenu", handleContextMenu);
+              }
+            }}
+          >
             <div className='flex gap-4 mt-10'>
               {selectedWork.artTextures?.map((texture, i) => (
                 <div key={i} className='transition-transform duration-200 hover:scale-105'>
@@ -109,6 +125,7 @@ const MonoPrints = () => {
                       whileInView={{ opacity: 1, scale: 1 }}
                       transition={{ duration: 0.6, ease: "easeOut" }}
                       viewport={{ once: true }}
+                      onContextMenu={(e) => e.preventDefault()}
                       src={texture}
                       alt={`Texture ${i + 1}`}
                       className="w-20 h-20 md:w-48 md:h-48 rounded-full object-cover border-2 border-gray-300 shadow-lg cursor-pointer"
