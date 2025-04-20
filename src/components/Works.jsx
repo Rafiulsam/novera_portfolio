@@ -31,18 +31,18 @@ const Works = () => {
           className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-5">
           {worksData.map((art, i) => (
             <motion.div
-            initial={{ opacity: 0, scale: 0.8 }}
-                whileInView={{ opacity: 1, scale: 1 }}
-                transition={{ duration: 0.6, ease: "easeOut" }}
-                viewport={{ once: true }}
-                key={i}
-                className={`group bg-white rounded-lg shadow-lg overflow-hidden relative ${spans[i] ? "sm:col-span-2" : ""
+              initial={{ opacity: 0, scale: 0.8 }}
+              whileInView={{ opacity: 1, scale: 1 }}
+              transition={{ duration: 0.6, ease: "easeOut" }}
+              viewport={{ once: true }}
+              key={i}
+              className={`group bg-white rounded-lg shadow-lg overflow-hidden relative ${spans[i] ? "sm:col-span-2" : ""
                 }`}
-                >
+            >
               <Link
                 to={`/monoprints/${art.title.replace(/\s+/g, '-').toLowerCase()}`}
-                
-                
+
+
               >
                 <img
                   src={optimizeImageUrl(art.coverImage)}
