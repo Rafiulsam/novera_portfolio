@@ -6,6 +6,8 @@ import LoadingPage from '../components/LoadingPage';
 import { optimizeImageUrl } from '../utils/optimizeImageUrl';
 import { PhotoProvider, PhotoView } from 'react-photo-view';
 import 'react-photo-view/dist/react-photo-view.css';
+import { FaArrowLeftLong } from 'react-icons/fa6';
+import { BsArrowLeft } from 'react-icons/bs';
 
 const MonoPrints = () => {
   const { series } = useParams();
@@ -149,42 +151,37 @@ const MonoPrints = () => {
             }
           }}
         >
-          {selectedWork.artWorks?.length > 0 ? (
-            selectedWork.artWorks.map((img, i) => (
-              <div key={i} className={`transition-transform duration-200 hover:scale-105 col-span-1 ${spans[i] ? "sm:col-span-2" : ""}`}>
-                <motion.div
-                  initial={{ opacity: 0, scale: 0.9 }}
-                  whileInView={{ opacity: 1, scale: 1 }}
-                  viewport={{ once: true }}
-                  transition={{ duration: 0.5, delay: i * 0.1 }}
-                  className='bg-white rounded-lg shadow-lg w-full h-full overflow-hidden relative cursor-pointer'
-                >
-                  <PhotoView src={optimizeImageUrl(img, "zoom")}>
-                    <img
-                      src={optimizeImageUrl(img, "preview")}
-                      alt={`Artwork ${i + 1}`}
-                      onLoad={(e) => handleImageLoad(e, i)}
-                      onContextMenu={(e) => e.preventDefault()}
-                      className="w-full h-full object-cover"
-                      draggable={false}
-                    />
-                  </PhotoView>
-                </motion.div>
-              </div>
-            ))
-          ) : (
-            <div className="col-span-4 flex flex-col items-center justify-center text-center min-h-[40vh] gap-6">
-              <h1 className='text-red-700 font-bold text-2xl'>Sorry, no artworks available for this series.</h1>
-              <button
-                onClick={() => window.history.back()}
-                className="px-4 py-2 bg-red-600 hover:bg-red-700 font-semibold text-white rounded-full transition duration-300"
+
+          {selectedWork.artWorks.map((img, i) => (
+            <div key={i} className={`transition-transform duration-200 hover:scale-105 col-span-1 ${spans[i] ? "sm:col-span-2" : ""}`}>
+              <motion.div
+                initial={{ opacity: 0, scale: 0.9 }}
+                whileInView={{ opacity: 1, scale: 1 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.5, delay: i * 0.1 }}
+                className='bg-white rounded-lg shadow-lg w-full h-full overflow-hidden relative cursor-pointer'
               >
-                Go Back
-              </button>
+                <PhotoView src={optimizeImageUrl(img, "zoom")}>
+                  <img
+                    src={optimizeImageUrl(img, "preview")}
+                    alt={`Artwork ${i + 1}`}
+                    onLoad={(e) => handleImageLoad(e, i)}
+                    onContextMenu={(e) => e.preventDefault()}
+                    className="w-full h-full object-cover"
+                    draggable={false}
+                  />
+                </PhotoView>
+              </motion.div>
+
             </div>
-          )}
+          ))}
         </PhotoProvider>
       </section >
+      <div className='bg-gray-100 px-10 pb-20'>
+        <button
+          onClick={() => window.history.back()}
+          className='px-10 flex items-center gap-5 font-thin tracking-[5px]'> <BsArrowLeft /> Go Back</button>
+      </div>
     </div >
   );
 };

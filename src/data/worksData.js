@@ -143,6 +143,9 @@ export default [
     ],
     series: "Monoprint Series",
     coverImage: "https://ik.imagekit.io/5lfj67b0tg/New%20folder/MONOPRINTS/12/Neelima%202%20.JPG?",
+    artWorks: [
+      "https://ik.imagekit.io/5lfj67b0tg/New%20folder/MONOPRINTS/12/Neelima%201%20.JPG?"
+    ]
   },
   {
     title: "Womanhood",

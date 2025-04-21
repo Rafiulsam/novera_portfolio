@@ -18,7 +18,7 @@ const OtherWorks = () => {
         infinite: true,
         speed: 1000,
         arrows: false,
-        slidesToShow: 3,
+        slidesToShow: 4,
         slidesToScroll: 1,
         autoplay: true,
         autoplaySpeed: 3000,
@@ -57,7 +57,7 @@ const OtherWorks = () => {
     }, []);
 
     return (
-        <section id="other-works" className="md:px-20 pb-10 min-h-screen bg-gray-100">
+        <section id="other-works" className="md:px-20 pb-10 md:min-h-screen bg-gray-100">
             <motion.h1
                 initial={{ opacity: 0, x: -40 }}
                 whileInView={{ opacity: 1, x: 0 }}
@@ -68,17 +68,17 @@ const OtherWorks = () => {
                 {otherWorksData.map((art, i) => (
                     <div
                         key={i}
-                        className="p-4"
+                        className="py-10"
                         onMouseDown={() => setIsDragging(false)}
                         onMouseMove={() => setIsDragging(true)}
                         onMouseUp={() => {
                             if (!isDragging) setSelectedWork(art);
                         }}
                     >
-                        <div className=" flex flex-col justify-between bg-white rounded-lg shadow-lg p-6 cursor-pointer transition-transform duration-200 hover:scale-105 w-[300px] h-[450px] mx-auto">
+                        <div className=" flex flex-col justify-between bg-white rounded-lg shadow-lg p-6 cursor-pointer transition-transform duration-200 hover:scale-105 w-[250px] h-[350px] mx-auto">
                             <img
                                 onContextMenu={(e) => e.preventDefault()}
-                                src={art.coverImage} alt="" className="rounded-lg mb-4 object-cover" />
+                                src={art.coverImage} alt="" className="rounded-lg mb-4 object-cover h-full " />
                             <div>
                                 <h2 className="text-xl font-semibold">{art.title}</h2>
                                 <p className="text-gray-600">{art.media}</p>
@@ -114,7 +114,7 @@ const OtherWorks = () => {
                                 }
                             }}
                         >
-                            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 place-items-center">
+                            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 place-items-center cursor-pointer">
                                 {selectedWork.artWorks.map((img, i) => (
                                     <PhotoView key={i} src={optimizeImageUrl(img, 'zoom')}>
                                         <img

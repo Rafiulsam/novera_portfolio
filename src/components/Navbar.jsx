@@ -51,8 +51,8 @@ const Navbar = () => {
 
         {/* Social Icons */}
         <div className="hidden md:flex space-x-4 text-white">
-          <a target="_blank" href="https://www.instagram.com/noverahasannikkon1998/"><FaInstagram size={25} /></a>
-          <a target="_blank" href="https://www.facebook.com/novera.hasannikkon.3"><FaFacebookSquare size={25} /></a>
+          <a className="hover:text-gray-200" target="_blank" href="https://www.instagram.com/noverahasannikkon1998/"><FaInstagram size={25} /></a>
+          <a className="hover:text-gray-200" target="_blank" href="https://www.facebook.com/novera.hasannikkon.3"><FaFacebookSquare size={25} /></a>
         </div>
 
         {/* Mobile Toggle */}
