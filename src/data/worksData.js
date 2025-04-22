@@ -1,6 +1,15 @@
 export default [
   {
     title: "Dancing Spirits",
+    description: [
+      "Dancing Spirits is a monoprint series I created right after finishing my Dancing with the Wind series. While that earlier work focused on soft, flowing, curvy figures that moved like air, this series brings in something a little different. Here, some of the figures have more shape and tone—still full of movement, but with a different kind of energy. You’ll see both kinds of forms here, existing together.",
+      
+      "When I was creating this series, I was thinking a lot about the deep connection between women and the universe—something ancient astrologers often talked about. They believed that women are closely connected to the moon, the stars, and the planets, and that these cosmic forces affect both the body and the mood. That idea stayed with me as I worked. It became a quiet theme in this series.",
+      
+      "Each figure in Dancing Spirits feels like it’s moving through space, guided by something beyond the physical—maybe a planet’s pull, or the phases of the moon. To me, these prints show the spirit of women as always in motion, always shifting. Sometimes the movement feels strong and grounded, other times light and dreamy. But it’s always alive.",
+      
+      "This series is about honoring that movement—that natural rhythm we carry inside us, and our deep connection to something greater."
+    ],
     artTextures: [
       "https://ik.imagekit.io/5lfj67b0tg/New%20folder/MONOPRINTS/Dancing%20Spirits/close%20ups/9X4A1185.JPG?",
       "https://ik.imagekit.io/5lfj67b0tg/New%20folder/MONOPRINTS/Dancing%20Spirits/close%20ups/IMG_1231.JPG?",
@@ -24,6 +33,15 @@ export default [
   },
   {
     title: "Dancing with the wind",
+    description: [
+      "This series is really close to my heart. Dancing with the Wind is about freedom, movement, and most importantly—celebration of the curvy female body. As a curvy woman myself, I’ve often felt the pressure to shrink, to take up less space, to fit into boxes that just don’t suit me. These prints are my way of saying: enough of that. There is so much beauty, strength, and grace in our softness and in our fullness—and I wanted to make that visible.",
+      
+      "I was inspired by Henri Matisse’s painting The Dance—how those bodies swirl in unity, energy, and joy. But I wanted to make it my own. I wanted to create figures that feel real and rooted—women who are bold, uninhibited, and connected to nature and each other. The wind in these prints isn’t just weather—it’s feeling, it’s breath, it’s momentum. It’s what carries us, what moves us, what we dance with and through.",
+      
+      "The vines, flowers, and thorny growths in the compositions reflect the different stages and emotions we move through—sometimes blooming, sometimes tangled, sometimes a bit wild. Just like life. Just like us.",
+      
+      "These prints are layered, textured, and made with intention. Each body, each shape, is a part of me. I hope when people see them, they feel a little more seen too."
+    ],    
     artTextures: [
       "https://ik.imagekit.io/5lfj67b0tg/New%20folder/MONOPRINTS/Dancing%20with%20the%20Wind/close%20ups/9X4A1167%20c.JPG?",
       "https://ik.imagekit.io/5lfj67b0tg/New%20folder/MONOPRINTS/Dancing%20with%20the%20Wind/close%20ups/IMG_1198%20c.JPG?",
@@ -40,6 +58,15 @@ export default [
   },
   {
     title: "Moruvumi (Desert)",
+    description: [
+      "Dancing Spirits is a monoprint series I created right after finishing my Dancing with the Wind series. While that earlier work focused on soft, flowing, curvy figures that moved like air, this series brings in something a little different. Here, some of the figures have more shape and tone—still full of movement, but with a different kind of energy. You’ll see both kinds of forms here, existing together.",
+      
+      "When I was creating this series, I was thinking a lot about the deep connection between women and the universe—something ancient astrologers often talked about. They believed that women are closely connected to the moon, the stars, and the planets, and that these cosmic forces affect both the body and the mood. That idea stayed with me as I worked. It became a quiet theme in this series.",
+      
+      "Each figure in Dancing Spirits feels like it’s moving through space, guided by something beyond the physical—maybe a planet’s pull, or the phases of the moon. To me, these prints show the spirit of women as always in motion, always shifting. Sometimes the movement feels strong and grounded, other times light and dreamy. But it’s always alive.",
+      
+      "This series is about honoring that movement—that natural rhythm we carry inside us, and our deep connection to something greater."
+    ],
     artTextures: [
       "https://ik.imagekit.io/5lfj67b0tg/New%20folder/MONOPRINTS/_Moruvumi_%20(Desert)/close%20ups/IMG_1428.JPG?",
       "https://ik.imagekit.io/5lfj67b0tg/New%20folder/MONOPRINTS/_Moruvumi_%20(Desert)/close%20ups/IMG_1179.JPG?",
@@ -56,6 +83,15 @@ export default [
   },
   {
     title: "Shopno Theke 1 (From Dreams 1)",
+    description: [
+      "Dancing Spirits is a monoprint series I created right after finishing my Dancing with the Wind series. While that earlier work focused on soft, flowing, curvy figures that moved like air, this series brings in something a little different. Here, some of the figures have more shape and tone—still full of movement, but with a different kind of energy. You’ll see both kinds of forms here, existing together.",
+      
+      "When I was creating this series, I was thinking a lot about the deep connection between women and the universe—something ancient astrologers often talked about. They believed that women are closely connected to the moon, the stars, and the planets, and that these cosmic forces affect both the body and the mood. That idea stayed with me as I worked. It became a quiet theme in this series.",
+      
+      "Each figure in Dancing Spirits feels like it’s moving through space, guided by something beyond the physical—maybe a planet’s pull, or the phases of the moon. To me, these prints show the spirit of women as always in motion, always shifting. Sometimes the movement feels strong and grounded, other times light and dreamy. But it’s always alive.",
+      
+      "This series is about honoring that movement—that natural rhythm we carry inside us, and our deep connection to something greater."
+    ],
     artTextures: [
       "https://ik.imagekit.io/5lfj67b0tg/New%20folder/MONOPRINTS/9/_Shopno%20Theke%201_%20(From%20dreams%201)/close%20up/9X4A1203%20-%20Copy.JPG?",
       "https://ik.imagekit.io/5lfj67b0tg/New%20folder/MONOPRINTS/9/_Shopno%20Theke%201_%20(From%20dreams%201)/close%20up/IMG_1385%20-%20Copy.JPG?",
@@ -73,6 +109,15 @@ export default [
   },
   {
     title: "Forest Girl",
+    description: [
+      "Dancing Spirits is a monoprint series I created right after finishing my Dancing with the Wind series. While that earlier work focused on soft, flowing, curvy figures that moved like air, this series brings in something a little different. Here, some of the figures have more shape and tone—still full of movement, but with a different kind of energy. You’ll see both kinds of forms here, existing together.",
+      
+      "When I was creating this series, I was thinking a lot about the deep connection between women and the universe—something ancient astrologers often talked about. They believed that women are closely connected to the moon, the stars, and the planets, and that these cosmic forces affect both the body and the mood. That idea stayed with me as I worked. It became a quiet theme in this series.",
+      
+      "Each figure in Dancing Spirits feels like it’s moving through space, guided by something beyond the physical—maybe a planet’s pull, or the phases of the moon. To me, these prints show the spirit of women as always in motion, always shifting. Sometimes the movement feels strong and grounded, other times light and dreamy. But it’s always alive.",
+      
+      "This series is about honoring that movement—that natural rhythm we carry inside us, and our deep connection to something greater."
+    ],
     artTextures: [
       "https://ik.imagekit.io/5lfj67b0tg/New%20folder/MONOPRINTS/Forest%20Girl/close%20ups/IMG_1259.JPG?",
       "https://ik.imagekit.io/5lfj67b0tg/New%20folder/MONOPRINTS/Forest%20Girl/close%20ups/IMG_1265.JPG?",
@@ -95,6 +140,15 @@ export default [
   },
   {
     title: "July 24 Spirits",
+    description: [
+      "Dancing Spirits is a monoprint series I created right after finishing my Dancing with the Wind series. While that earlier work focused on soft, flowing, curvy figures that moved like air, this series brings in something a little different. Here, some of the figures have more shape and tone—still full of movement, but with a different kind of energy. You’ll see both kinds of forms here, existing together.",
+      
+      "When I was creating this series, I was thinking a lot about the deep connection between women and the universe—something ancient astrologers often talked about. They believed that women are closely connected to the moon, the stars, and the planets, and that these cosmic forces affect both the body and the mood. That idea stayed with me as I worked. It became a quiet theme in this series.",
+      
+      "Each figure in Dancing Spirits feels like it’s moving through space, guided by something beyond the physical—maybe a planet’s pull, or the phases of the moon. To me, these prints show the spirit of women as always in motion, always shifting. Sometimes the movement feels strong and grounded, other times light and dreamy. But it’s always alive.",
+      
+      "This series is about honoring that movement—that natural rhythm we carry inside us, and our deep connection to something greater."
+    ],
     artTextures: [
       "https://ik.imagekit.io/5lfj67b0tg/New%20folder/MONOPRINTS/July%2024%20Spirits/close%20up/IMG_1292.JPG?updatedAt=1745349243876",
       "https://ik.imagekit.io/5lfj67b0tg/New%20folder/MONOPRINTS/July%2024%20Spirits/close%20up/IMG_1290.JPG?updatedAt=1745349243737",
@@ -117,6 +171,15 @@ export default [
   },
   {
     title: "Memories from Qurbani Eid",
+    description: [
+      "Dancing Spirits is a monoprint series I created right after finishing my Dancing with the Wind series. While that earlier work focused on soft, flowing, curvy figures that moved like air, this series brings in something a little different. Here, some of the figures have more shape and tone—still full of movement, but with a different kind of energy. You’ll see both kinds of forms here, existing together.",
+      
+      "When I was creating this series, I was thinking a lot about the deep connection between women and the universe—something ancient astrologers often talked about. They believed that women are closely connected to the moon, the stars, and the planets, and that these cosmic forces affect both the body and the mood. That idea stayed with me as I worked. It became a quiet theme in this series.",
+      
+      "Each figure in Dancing Spirits feels like it’s moving through space, guided by something beyond the physical—maybe a planet’s pull, or the phases of the moon. To me, these prints show the spirit of women as always in motion, always shifting. Sometimes the movement feels strong and grounded, other times light and dreamy. But it’s always alive.",
+      
+      "This series is about honoring that movement—that natural rhythm we carry inside us, and our deep connection to something greater."
+    ],
     artTextures: [
       "https://ik.imagekit.io/5lfj67b0tg/New%20folder/MONOPRINTS/Memories%20from%20Qurbani%20Eid/close%20ups/IMG_1275.JPG?",
       "https://ik.imagekit.io/5lfj67b0tg/New%20folder/MONOPRINTS/Memories%20from%20Qurbani%20Eid/close%20ups/IMG_1276.JPG?",
@@ -138,6 +201,15 @@ export default [
   },
   {
     title: "Neelima",
+    description: [
+      "Dancing Spirits is a monoprint series I created right after finishing my Dancing with the Wind series. While that earlier work focused on soft, flowing, curvy figures that moved like air, this series brings in something a little different. Here, some of the figures have more shape and tone—still full of movement, but with a different kind of energy. You’ll see both kinds of forms here, existing together.",
+      
+      "When I was creating this series, I was thinking a lot about the deep connection between women and the universe—something ancient astrologers often talked about. They believed that women are closely connected to the moon, the stars, and the planets, and that these cosmic forces affect both the body and the mood. That idea stayed with me as I worked. It became a quiet theme in this series.",
+      
+      "Each figure in Dancing Spirits feels like it’s moving through space, guided by something beyond the physical—maybe a planet’s pull, or the phases of the moon. To me, these prints show the spirit of women as always in motion, always shifting. Sometimes the movement feels strong and grounded, other times light and dreamy. But it’s always alive.",
+      
+      "This series is about honoring that movement—that natural rhythm we carry inside us, and our deep connection to something greater."
+    ],
     artTextures: [
       "https://ik.imagekit.io/5lfj67b0tg/New%20folder/MONOPRINTS/12/close%20ups/IMG_1441.JPG?",
       "https://ik.imagekit.io/5lfj67b0tg/New%20folder/MONOPRINTS/12/close%20ups/IMG_1439%20(2).JPG?",
@@ -151,6 +223,15 @@ export default [
   },
   {
     title: "Womanhood",
+    description: [
+      "Dancing Spirits is a monoprint series I created right after finishing my Dancing with the Wind series. While that earlier work focused on soft, flowing, curvy figures that moved like air, this series brings in something a little different. Here, some of the figures have more shape and tone—still full of movement, but with a different kind of energy. You’ll see both kinds of forms here, existing together.",
+      
+      "When I was creating this series, I was thinking a lot about the deep connection between women and the universe—something ancient astrologers often talked about. They believed that women are closely connected to the moon, the stars, and the planets, and that these cosmic forces affect both the body and the mood. That idea stayed with me as I worked. It became a quiet theme in this series.",
+      
+      "Each figure in Dancing Spirits feels like it’s moving through space, guided by something beyond the physical—maybe a planet’s pull, or the phases of the moon. To me, these prints show the spirit of women as always in motion, always shifting. Sometimes the movement feels strong and grounded, other times light and dreamy. But it’s always alive.",
+      
+      "This series is about honoring that movement—that natural rhythm we carry inside us, and our deep connection to something greater."
+    ],
     artTextures: [
       "https://ik.imagekit.io/5lfj67b0tg/New%20folder/MONOPRINTS/Womanhood/close%20ups%202/9X4A1176.JPG?",
       "https://ik.imagekit.io/5lfj67b0tg/New%20folder/MONOPRINTS/Womanhood/close%20ups%202/IMG_1208.JPG?",
@@ -172,6 +253,15 @@ export default [
   },
   {
     title: "Dash (Slaves)",
+    description: [
+      "Dancing Spirits is a monoprint series I created right after finishing my Dancing with the Wind series. While that earlier work focused on soft, flowing, curvy figures that moved like air, this series brings in something a little different. Here, some of the figures have more shape and tone—still full of movement, but with a different kind of energy. You’ll see both kinds of forms here, existing together.",
+      
+      "When I was creating this series, I was thinking a lot about the deep connection between women and the universe—something ancient astrologers often talked about. They believed that women are closely connected to the moon, the stars, and the planets, and that these cosmic forces affect both the body and the mood. That idea stayed with me as I worked. It became a quiet theme in this series.",
+      
+      "Each figure in Dancing Spirits feels like it’s moving through space, guided by something beyond the physical—maybe a planet’s pull, or the phases of the moon. To me, these prints show the spirit of women as always in motion, always shifting. Sometimes the movement feels strong and grounded, other times light and dreamy. But it’s always alive.",
+      
+      "This series is about honoring that movement—that natural rhythm we carry inside us, and our deep connection to something greater."
+    ],
     artTextures: [
       "https://ik.imagekit.io/5lfj67b0tg/New%20folder/MONOPRINTS/_Dash_%20(Slaves)/close%20ups/IMG_1178.JPG?",
       "https://ik.imagekit.io/5lfj67b0tg/New%20folder/MONOPRINTS/_Dash_%20(Slaves)/close%20ups/IMG_1183.JPG?",
@@ -189,6 +279,15 @@ export default [
   },
   {
     title: "Peace",
+    description: [
+      "Dancing Spirits is a monoprint series I created right after finishing my Dancing with the Wind series. While that earlier work focused on soft, flowing, curvy figures that moved like air, this series brings in something a little different. Here, some of the figures have more shape and tone—still full of movement, but with a different kind of energy. You’ll see both kinds of forms here, existing together.",
+      
+      "When I was creating this series, I was thinking a lot about the deep connection between women and the universe—something ancient astrologers often talked about. They believed that women are closely connected to the moon, the stars, and the planets, and that these cosmic forces affect both the body and the mood. That idea stayed with me as I worked. It became a quiet theme in this series.",
+      
+      "Each figure in Dancing Spirits feels like it’s moving through space, guided by something beyond the physical—maybe a planet’s pull, or the phases of the moon. To me, these prints show the spirit of women as always in motion, always shifting. Sometimes the movement feels strong and grounded, other times light and dreamy. But it’s always alive.",
+      
+      "This series is about honoring that movement—that natural rhythm we carry inside us, and our deep connection to something greater."
+    ],
     artTextures: [
       "https://ik.imagekit.io/5lfj67b0tg/New%20folder/MONOPRINTS/8/Untitled%20folder/close%20ups/9X4A1189.JPG?",
       "https://ik.imagekit.io/5lfj67b0tg/New%20folder/MONOPRINTS/8/Untitled%20folder/close%20ups/IMG_1381.JPG?",
@@ -206,6 +305,15 @@ export default [
   },
   {
     title: "Shopno Theke 2 (From dreams 2)",
+    description: [
+      "Dancing Spirits is a monoprint series I created right after finishing my Dancing with the Wind series. While that earlier work focused on soft, flowing, curvy figures that moved like air, this series brings in something a little different. Here, some of the figures have more shape and tone—still full of movement, but with a different kind of energy. You’ll see both kinds of forms here, existing together.",
+      
+      "When I was creating this series, I was thinking a lot about the deep connection between women and the universe—something ancient astrologers often talked about. They believed that women are closely connected to the moon, the stars, and the planets, and that these cosmic forces affect both the body and the mood. That idea stayed with me as I worked. It became a quiet theme in this series.",
+      
+      "Each figure in Dancing Spirits feels like it’s moving through space, guided by something beyond the physical—maybe a planet’s pull, or the phases of the moon. To me, these prints show the spirit of women as always in motion, always shifting. Sometimes the movement feels strong and grounded, other times light and dreamy. But it’s always alive.",
+      
+      "This series is about honoring that movement—that natural rhythm we carry inside us, and our deep connection to something greater."
+    ],
     // artTextures: [
     //   "https://ik.imagekit.io/5lfj67b0tg/New%20folder/MONOPRINTS/8/Untitled%20folder/close%20ups/9X4A1189.JPG?",
     //   "https://ik.imagekit.io/5lfj67b0tg/New%20folder/MONOPRINTS/8/Untitled%20folder/close%20ups/IMG_1381.JPG?",
@@ -219,6 +327,15 @@ export default [
   },
   {
     title: "Haowa (Eve)",
+    description: [
+      "Dancing Spirits is a monoprint series I created right after finishing my Dancing with the Wind series. While that earlier work focused on soft, flowing, curvy figures that moved like air, this series brings in something a little different. Here, some of the figures have more shape and tone—still full of movement, but with a different kind of energy. You’ll see both kinds of forms here, existing together.",
+      
+      "When I was creating this series, I was thinking a lot about the deep connection between women and the universe—something ancient astrologers often talked about. They believed that women are closely connected to the moon, the stars, and the planets, and that these cosmic forces affect both the body and the mood. That idea stayed with me as I worked. It became a quiet theme in this series.",
+      
+      "Each figure in Dancing Spirits feels like it’s moving through space, guided by something beyond the physical—maybe a planet’s pull, or the phases of the moon. To me, these prints show the spirit of women as always in motion, always shifting. Sometimes the movement feels strong and grounded, other times light and dreamy. But it’s always alive.",
+      
+      "This series is about honoring that movement—that natural rhythm we carry inside us, and our deep connection to something greater."
+    ],
     artTextures: [
       "https://ik.imagekit.io/5lfj67b0tg/New%20folder/MONOPRINTS/9/_Haowa_%20(Eve)/close%20ups/IMG_1181%20-%20Copy.JPG?updatedAt=1745314575311",
       "https://ik.imagekit.io/5lfj67b0tg/New%20folder/MONOPRINTS/9/_Haowa_%20(Eve)/close%20ups/IMG_1169%20-%20Copy.JPG?updatedAt=1745314574050",

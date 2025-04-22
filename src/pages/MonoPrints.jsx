@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { use, useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import worksData from '../data/worksData';
 import { motion } from 'framer-motion';
@@ -7,13 +7,13 @@ import { optimizeImageUrl } from '../utils/optimizeImageUrl';
 import { PhotoProvider, PhotoView } from 'react-photo-view';
 import 'react-photo-view/dist/react-photo-view.css';
 import { BsArrowLeft } from 'react-icons/bs';
+import FoldableDescription from '../components/FoldableDescription';
 
 const MonoPrints = () => {
   const { series } = useParams();
   const selectedWork = worksData.find(
     work => work.title.replace(/\s+/g, '-').toLowerCase() === series
   );
-  console.log(selectedWork.artWorks);
 
   const [spans, setSpans] = useState({});
   const [isLoading, setIsLoading] = useState(true);
@@ -25,6 +25,8 @@ const MonoPrints = () => {
       setSpans(prev => ({ ...prev, [index]: true }));
     }
   };
+
+
   const handleContextMenu = (e) => {
     e.preventDefault();
   };
@@ -60,7 +62,7 @@ const MonoPrints = () => {
             Monoprint
           </h1>
           <p className='text-white text-justify px-1'>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit ad labore perferendis libero sunt, omnis molestiae accusantium temporibus voluptate eveniet at, voluptas, accusamus quaerat blanditiis fuga expedita? Id recusandae quasi hic odio. Veniam aspernatur fugiat placeat tenetur. Tempora esse amet minima similique voluptas natus obcaecati consectetur a,
+            Monoprint is the art of the unexpected. Each piece is a one-of-a-kind impression—never to be replicated, even by the artist themselves. Created by layering ink or paint onto a surface and transferring it to paper, monoprinting captures the beauty of spontaneity and texture. It’s where control meets chance, and every mark tells a story of the moment it was made.
           </p>
         </motion.div>
       </section>
@@ -86,29 +88,25 @@ const MonoPrints = () => {
                 onContextMenu={(e) => e.preventDefault()}
                 draggable={false}
                 src={optimizeImageUrl(selectedWork.coverImage, "preview")}
-                alt=""
-                className='h-full object-contain cursor-pointer'
+                alt={selectedWork.title}
+                className="object-contain cursor-pointer h-full max-w-[80vh]"
               />
             </PhotoView>
           </div>
         </PhotoProvider>
         <div className='flex flex-col justify-between md:w-1/2 text-start'>
-          <div>
-            <motion.h1
-              initial={{ opacity: 0, y: -50 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 1 }}
-              className="text-4xl md:text-5xl font-bold mb-4 mt-10">
+          <motion.div
+            initial={{ opacity: 0, y: -50 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 1 }}
+          >
+            <h1 className="text-4xl md:text-5xl font-bold mt-10">
               {selectedWork.title}
-            </motion.h1>
-            <motion.p
-              initial={{ opacity: 0, y: -50 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 1 }}
-            >
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque debitis laboriosam fuga suscipit. Et, accusantium earum enim, beatae, facere eligendi delectus aperiam nulla reiciendis incidunt ipsum culpa illum maiores. Quidem voluptas eaque autem corrupti provident consectetur repudiandae, sint tenetur quis qui adipisci debitis, ab architecto tempora nam ex cupiditate ea accusantium odit nobis. Sequi possimus unde laborum. Perspiciatis et illo vitae voluptate ut, deleniti nesciunt, cum mollitia explicabo totam ipsa?
-            </motion.p>
-          </div>
+            </h1>
+            <p><small><i>Artist Statement
+            </i></small></p>
+            <FoldableDescription description={selectedWork.description} />
+          </motion.div>
           <PhotoProvider
             onVisibleChange={(visible) => {
               if (visible) {
