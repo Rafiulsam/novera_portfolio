@@ -2,9 +2,9 @@ export default [
   {
     title: "Dancing Spirits",
     artTextures: [
-      "https://images.pexels.com/photos/1509534/pexels-photo-1509534.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
-      "https://t4.ftcdn.net/jpg/05/03/97/21/360_F_503972121_PInSa2AKaQF2crSq5n2IcqiQcFaxvdFl.jpg",
-      "https://t3.ftcdn.net/jpg/02/44/56/70/360_F_244567019_SRb5i27LHFzblS6dpOhDUu8nsdRgmgh5.jpg",
+      "https://ik.imagekit.io/5lfj67b0tg/New%20folder/MONOPRINTS/Dancing%20Spirits/close%20ups/9X4A1185.JPG?",
+      "https://ik.imagekit.io/5lfj67b0tg/New%20folder/MONOPRINTS/Dancing%20Spirits/close%20ups/IMG_1231.JPG?",
+      "https://ik.imagekit.io/5lfj67b0tg/New%20folder/MONOPRINTS/Dancing%20Spirits/close%20ups/IMG_1268.JPG?",
     ],
     series: "Monoprint Series",
     coverImage: "https://ik.imagekit.io/5lfj67b0tg/New%20folder/MONOPRINTS/Dancing%20Spirits/IMG_1231.JPG?",
@@ -25,9 +25,9 @@ export default [
   {
     title: "Dancing with the wind",
     artTextures: [
-      "https://images.pexels.com/photos/1509534/pexels-photo-1509534.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
-      "https://t4.ftcdn.net/jpg/05/03/97/21/360_F_503972121_PInSa2AKaQF2crSq5n2IcqiQcFaxvdFl.jpg",
-      "https://t3.ftcdn.net/jpg/02/44/56/70/360_F_244567019_SRb5i27LHFzblS6dpOhDUu8nsdRgmgh5.jpg",
+      "https://ik.imagekit.io/5lfj67b0tg/New%20folder/MONOPRINTS/Dancing%20with%20the%20Wind/close%20ups/9X4A1167%20c.JPG?",
+      "https://ik.imagekit.io/5lfj67b0tg/New%20folder/MONOPRINTS/Dancing%20with%20the%20Wind/close%20ups/IMG_1198%20c.JPG?",
+      "https://ik.imagekit.io/5lfj67b0tg/New%20folder/MONOPRINTS/Dancing%20with%20the%20Wind/close%20ups/IMG_1200%20c.JPG?",
     ],
     series: "Monoprint Series",
     coverImage: "https://ik.imagekit.io/5lfj67b0tg/New%20folder/MONOPRINTS/Dancing%20with%20the%20Wind/IMG_1200%20c.JPG?",
@@ -41,9 +41,9 @@ export default [
   {
     title: "Moruvumi (Desert)",
     artTextures: [
-      "https://images.pexels.com/photos/1509534/pexels-photo-1509534.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
-      "https://t4.ftcdn.net/jpg/05/03/97/21/360_F_503972121_PInSa2AKaQF2crSq5n2IcqiQcFaxvdFl.jpg",
-      "https://t3.ftcdn.net/jpg/02/44/56/70/360_F_244567019_SRb5i27LHFzblS6dpOhDUu8nsdRgmgh5.jpg",
+      "https://ik.imagekit.io/5lfj67b0tg/New%20folder/MONOPRINTS/_Moruvumi_%20(Desert)/close%20ups/IMG_1428.JPG?",
+      "https://ik.imagekit.io/5lfj67b0tg/New%20folder/MONOPRINTS/_Moruvumi_%20(Desert)/close%20ups/IMG_1179.JPG?",
+      "https://ik.imagekit.io/5lfj67b0tg/New%20folder/MONOPRINTS/_Moruvumi_%20(Desert)/close%20ups/IMG_1171.JPG?",
     ],
     series: "Monoprint Series",
     coverImage: "https://ik.imagekit.io/5lfj67b0tg/New%20folder/MONOPRINTS/_Moruvumi_%20(Desert)/IMG_1179.JPG?",
@@ -57,9 +57,9 @@ export default [
   {
     title: "Shopno Theke 1 (From Dreams 1)",
     artTextures: [
-      "https://images.pexels.com/photos/1509534/pexels-photo-1509534.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
-      "https://t4.ftcdn.net/jpg/05/03/97/21/360_F_503972121_PInSa2AKaQF2crSq5n2IcqiQcFaxvdFl.jpg",
-      "https://t3.ftcdn.net/jpg/02/44/56/70/360_F_244567019_SRb5i27LHFzblS6dpOhDUu8nsdRgmgh5.jpg",
+      "https://ik.imagekit.io/5lfj67b0tg/New%20folder/MONOPRINTS/9/_Shopno%20Theke%201_%20(From%20dreams%201)/close%20up/9X4A1203%20-%20Copy.JPG?",
+      "https://ik.imagekit.io/5lfj67b0tg/New%20folder/MONOPRINTS/9/_Shopno%20Theke%201_%20(From%20dreams%201)/close%20up/IMG_1385%20-%20Copy.JPG?",
+      "https://ik.imagekit.io/5lfj67b0tg/New%20folder/MONOPRINTS/9/_Shopno%20Theke%201_%20(From%20dreams%201)/close%20up/9X4A1193%20-%20Copy.JPG?",
     ],
     series: "Monoprint Series",
     coverImage: "https://ik.imagekit.io/5lfj67b0tg/New%20folder/MONOPRINTS/9/_Shopno%20Theke%201_%20(From%20dreams%201)/9X4A1203.JPG?",
@@ -74,9 +74,9 @@ export default [
   {
     title: "Forest Girl",
     artTextures: [
-      "https://images.pexels.com/photos/1509534/pexels-photo-1509534.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
-      "https://t4.ftcdn.net/jpg/05/03/97/21/360_F_503972121_PInSa2AKaQF2crSq5n2IcqiQcFaxvdFl.jpg",
-      "https://t3.ftcdn.net/jpg/02/44/56/70/360_F_244567019_SRb5i27LHFzblS6dpOhDUu8nsdRgmgh5.jpg",
+      "https://ik.imagekit.io/5lfj67b0tg/New%20folder/MONOPRINTS/Forest%20Girl/close%20ups/IMG_1259.JPG?",
+      "https://ik.imagekit.io/5lfj67b0tg/New%20folder/MONOPRINTS/Forest%20Girl/close%20ups/IMG_1265.JPG?",
+      "https://ik.imagekit.io/5lfj67b0tg/New%20folder/MONOPRINTS/Forest%20Girl/close%20ups/IMG_1241.JPG?",
     ],
     series: "Monoprint Series",
     coverImage: "https://ik.imagekit.io/5lfj67b0tg/New%20folder/MONOPRINTS/Forest%20Girl/IMG_1245.JPG?",
@@ -96,9 +96,9 @@ export default [
   {
     title: "July 24 Spirits",
     artTextures: [
-      "https://images.pexels.com/photos/1509534/pexels-photo-1509534.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
-      "https://t4.ftcdn.net/jpg/05/03/97/21/360_F_503972121_PInSa2AKaQF2crSq5n2IcqiQcFaxvdFl.jpg",
-      "https://t3.ftcdn.net/jpg/02/44/56/70/360_F_244567019_SRb5i27LHFzblS6dpOhDUu8nsdRgmgh5.jpg",
+      "https://ik.imagekit.io/5lfj67b0tg/New%20folder/MONOPRINTS/July%2024%20Spirits/close%20up/IMG_1292.JPG?updatedAt=1745349243876",
+      "https://ik.imagekit.io/5lfj67b0tg/New%20folder/MONOPRINTS/July%2024%20Spirits/close%20up/IMG_1290.JPG?updatedAt=1745349243737",
+      "https://ik.imagekit.io/5lfj67b0tg/New%20folder/MONOPRINTS/July%2024%20Spirits/close%20up/IMG_1282.JPG?updatedAt=1745349243406",
     ],
     series: "Monoprint Series",
     coverImage: "https://ik.imagekit.io/5lfj67b0tg/New%20folder/MONOPRINTS/July%2024%20Spirits/IMG_1282.JPG?",
@@ -118,9 +118,9 @@ export default [
   {
     title: "Memories from Qurbani Eid",
     artTextures: [
-      "https://images.pexels.com/photos/1509534/pexels-photo-1509534.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
-      "https://t4.ftcdn.net/jpg/05/03/97/21/360_F_503972121_PInSa2AKaQF2crSq5n2IcqiQcFaxvdFl.jpg",
-      "https://t3.ftcdn.net/jpg/02/44/56/70/360_F_244567019_SRb5i27LHFzblS6dpOhDUu8nsdRgmgh5.jpg",
+      "https://ik.imagekit.io/5lfj67b0tg/New%20folder/MONOPRINTS/Memories%20from%20Qurbani%20Eid/close%20ups/IMG_1275.JPG?",
+      "https://ik.imagekit.io/5lfj67b0tg/New%20folder/MONOPRINTS/Memories%20from%20Qurbani%20Eid/close%20ups/IMG_1276.JPG?",
+      "https://ik.imagekit.io/5lfj67b0tg/New%20folder/MONOPRINTS/Memories%20from%20Qurbani%20Eid/close%20ups/IMG_1207.JPG?",
     ],
     series: "Monoprint Series",
     coverImage: "https://ik.imagekit.io/5lfj67b0tg/New%20folder/MONOPRINTS/Memories%20from%20Qurbani%20Eid/IMG_1275.JPG?",
@@ -132,14 +132,16 @@ export default [
       "https://ik.imagekit.io/5lfj67b0tg/New%20folder/MONOPRINTS/Memories%20from%20Qurbani%20Eid/IMG_1203.JPG?updatedAt=1744739843270",
       "https://ik.imagekit.io/5lfj67b0tg/New%20folder/MONOPRINTS/Memories%20from%20Qurbani%20Eid/IMG_1189.JPG?updatedAt=1744739841820",
       "https://ik.imagekit.io/5lfj67b0tg/New%20folder/MONOPRINTS/Memories%20from%20Qurbani%20Eid/IMG_1190.JPG?updatedAt=1744739839810",
+      "https://ik.imagekit.io/5lfj67b0tg/New%20folder/MONOPRINTS/Memories%20from%20Qurbani%20Eid/IMG_1186.JPG?",
+      "https://ik.imagekit.io/5lfj67b0tg/New%20folder/MONOPRINTS/Memories%20from%20Qurbani%20Eid/IMG_1188.JPG?updatedAt=1744739827590"
     ]
   },
   {
-    title: "Neelima 2",
+    title: "Neelima",
     artTextures: [
-      "https://images.pexels.com/photos/1509534/pexels-photo-1509534.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
-      "https://t4.ftcdn.net/jpg/05/03/97/21/360_F_503972121_PInSa2AKaQF2crSq5n2IcqiQcFaxvdFl.jpg",
-      "https://t3.ftcdn.net/jpg/02/44/56/70/360_F_244567019_SRb5i27LHFzblS6dpOhDUu8nsdRgmgh5.jpg",
+      "https://ik.imagekit.io/5lfj67b0tg/New%20folder/MONOPRINTS/12/close%20ups/IMG_1441.JPG?",
+      "https://ik.imagekit.io/5lfj67b0tg/New%20folder/MONOPRINTS/12/close%20ups/IMG_1439%20(2).JPG?",
+      "https://ik.imagekit.io/5lfj67b0tg/New%20folder/MONOPRINTS/12/close%20ups/IMG_1441%20(2).JPG?",
     ],
     series: "Monoprint Series",
     coverImage: "https://ik.imagekit.io/5lfj67b0tg/New%20folder/MONOPRINTS/12/Neelima%202%20.JPG?",
@@ -150,9 +152,9 @@ export default [
   {
     title: "Womanhood",
     artTextures: [
-      "https://images.pexels.com/photos/1509534/pexels-photo-1509534.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
-      "https://t4.ftcdn.net/jpg/05/03/97/21/360_F_503972121_PInSa2AKaQF2crSq5n2IcqiQcFaxvdFl.jpg",
-      "https://t3.ftcdn.net/jpg/02/44/56/70/360_F_244567019_SRb5i27LHFzblS6dpOhDUu8nsdRgmgh5.jpg",
+      "https://ik.imagekit.io/5lfj67b0tg/New%20folder/MONOPRINTS/Womanhood/close%20ups%202/9X4A1176.JPG?",
+      "https://ik.imagekit.io/5lfj67b0tg/New%20folder/MONOPRINTS/Womanhood/close%20ups%202/IMG_1208.JPG?",
+      "https://ik.imagekit.io/5lfj67b0tg/New%20folder/MONOPRINTS/Womanhood/close%20ups%202/IMG_1211.JPG?",
     ],
     series: "Monoprint Series",
     coverImage: "https://ik.imagekit.io/5lfj67b0tg/New%20folder/MONOPRINTS/Womanhood/IMG_1237.JPG?",
@@ -171,9 +173,9 @@ export default [
   {
     title: "Dash (Slaves)",
     artTextures: [
-      "https://images.pexels.com/photos/1509534/pexels-photo-1509534.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
-      "https://t4.ftcdn.net/jpg/05/03/97/21/360_F_503972121_PInSa2AKaQF2crSq5n2IcqiQcFaxvdFl.jpg",
-      "https://t3.ftcdn.net/jpg/02/44/56/70/360_F_244567019_SRb5i27LHFzblS6dpOhDUu8nsdRgmgh5.jpg",
+      "https://ik.imagekit.io/5lfj67b0tg/New%20folder/MONOPRINTS/_Dash_%20(Slaves)/close%20ups/IMG_1178.JPG?",
+      "https://ik.imagekit.io/5lfj67b0tg/New%20folder/MONOPRINTS/_Dash_%20(Slaves)/close%20ups/IMG_1183.JPG?",
+      "https://ik.imagekit.io/5lfj67b0tg/New%20folder/MONOPRINTS/_Dash_%20(Slaves)/close%20ups/IMG_1174.JPG?",
     ],
     series: "Monoprint Series",
     coverImage: "https://ik.imagekit.io/5lfj67b0tg/New%20folder/MONOPRINTS/_Dash_%20(Slaves)/IMG_1178.JPG?",
@@ -183,6 +185,50 @@ export default [
       "https://ik.imagekit.io/5lfj67b0tg/New%20folder/MONOPRINTS/_Dash_%20(Slaves)/IMG_1170.JPG?",
       "https://ik.imagekit.io/5lfj67b0tg/New%20folder/MONOPRINTS/_Dash_%20(Slaves)/IMG_1176.JPG?",
 
+    ],
+  },
+  {
+    title: "Peace",
+    artTextures: [
+      "https://ik.imagekit.io/5lfj67b0tg/New%20folder/MONOPRINTS/8/Untitled%20folder/close%20ups/9X4A1189.JPG?",
+      "https://ik.imagekit.io/5lfj67b0tg/New%20folder/MONOPRINTS/8/Untitled%20folder/close%20ups/IMG_1381.JPG?",
+      "https://ik.imagekit.io/5lfj67b0tg/New%20folder/MONOPRINTS/8/Untitled%20folder/close%20ups/9X4A1188.JPG?",
+    ],
+    series: "Monoprint Series",
+    coverImage: "https://ik.imagekit.io/5lfj67b0tg/New%20folder/MONOPRINTS/8/Untitled%20folder/Peace%203%20.JPG?",
+    artWorks: [
+      "https://ik.imagekit.io/5lfj67b0tg/New%20folder/MONOPRINTS/8/Untitled%20folder/Peace%204%20.JPG?updatedAt=1744740004896",
+      "https://ik.imagekit.io/5lfj67b0tg/New%20folder/MONOPRINTS/8/Untitled%20folder/Peace%205.JPG?updatedAt=1744739991316",
+      "https://ik.imagekit.io/5lfj67b0tg/New%20folder/MONOPRINTS/8/Untitled%20folder/Peace%202%20%20.JPG?updatedAt=1744739981844",
+      "https://ik.imagekit.io/5lfj67b0tg/New%20folder/MONOPRINTS/8/Untitled%20folder/Peace%201%20.JPG?updatedAt=1744739981419",
+
+    ],
+  },
+  {
+    title: "Shopno Theke 2 (From dreams 2)",
+    // artTextures: [
+    //   "https://ik.imagekit.io/5lfj67b0tg/New%20folder/MONOPRINTS/8/Untitled%20folder/close%20ups/9X4A1189.JPG?",
+    //   "https://ik.imagekit.io/5lfj67b0tg/New%20folder/MONOPRINTS/8/Untitled%20folder/close%20ups/IMG_1381.JPG?",
+    //   "https://ik.imagekit.io/5lfj67b0tg/New%20folder/MONOPRINTS/8/Untitled%20folder/close%20ups/9X4A1188.JPG?",
+    // ],
+    series: "Monoprint Series",
+    coverImage: "https://ik.imagekit.io/5lfj67b0tg/New%20folder/MONOPRINTS/9/_Shopno%20Theke%202_%20(From%20dreams%202)/9X4A1201.JPG?updatedAt=1744739956933",
+    artWorks: [
+      "https://ik.imagekit.io/5lfj67b0tg/New%20folder/MONOPRINTS/9/_Shopno%20Theke%202_%20(From%20dreams%202)/9X4A1198.JPG?updatedAt=1744739953164",
+    ],
+  },
+  {
+    title: "Haowa (Eve)",
+    artTextures: [
+      "https://ik.imagekit.io/5lfj67b0tg/New%20folder/MONOPRINTS/9/_Haowa_%20(Eve)/close%20ups/IMG_1181%20-%20Copy.JPG?updatedAt=1745314575311",
+      "https://ik.imagekit.io/5lfj67b0tg/New%20folder/MONOPRINTS/9/_Haowa_%20(Eve)/close%20ups/IMG_1169%20-%20Copy.JPG?updatedAt=1745314574050",
+      "https://ik.imagekit.io/5lfj67b0tg/New%20folder/MONOPRINTS/9/_Haowa_%20(Eve)/close%20ups/IMG_1426%20-%20Copy.JPG?updatedAt=1745314575133",
+    ],
+    series: "Monoprint Series",
+    coverImage: "https://ik.imagekit.io/5lfj67b0tg/New%20folder/MONOPRINTS/9/_Haowa_%20(Eve)/IMG_1181.JPG?updatedAt=1744739976115",
+    artWorks: [
+      "https://ik.imagekit.io/5lfj67b0tg/New%20folder/MONOPRINTS/9/_Haowa_%20(Eve)/IMG_1426.JPG?updatedAt=1744739966586",
+      "https://ik.imagekit.io/5lfj67b0tg/New%20folder/MONOPRINTS/9/_Haowa_%20(Eve)/IMG_1169.JPG?updatedAt=1744739958182",
     ],
   },
 ];

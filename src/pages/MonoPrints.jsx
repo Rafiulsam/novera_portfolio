@@ -6,7 +6,6 @@ import LoadingPage from '../components/LoadingPage';
 import { optimizeImageUrl } from '../utils/optimizeImageUrl';
 import { PhotoProvider, PhotoView } from 'react-photo-view';
 import 'react-photo-view/dist/react-photo-view.css';
-import { FaArrowLeftLong } from 'react-icons/fa6';
 import { BsArrowLeft } from 'react-icons/bs';
 
 const MonoPrints = () => {
@@ -14,6 +13,7 @@ const MonoPrints = () => {
   const selectedWork = worksData.find(
     work => work.title.replace(/\s+/g, '-').toLowerCase() === series
   );
+  console.log(selectedWork.artWorks);
 
   const [spans, setSpans] = useState({});
   const [isLoading, setIsLoading] = useState(true);
@@ -141,7 +141,7 @@ const MonoPrints = () => {
       </section >
 
       {/* Artworks */}
-      < section className="p-6 md:p-20 bg-gray-100 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-10" >
+      < section className={`p-6 md:p-20 bg-gray-100 ${selectedWork.artWorks.length < 3 ? "flex gap-10 justify-center items-center bg-gray-100" : "grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-10"}`} >
         <PhotoProvider
           onVisibleChange={(visible) => {
             if (visible) {
@@ -159,7 +159,7 @@ const MonoPrints = () => {
                 whileInView={{ opacity: 1, scale: 1 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.5, delay: i * 0.1 }}
-                className='bg-white rounded-lg shadow-lg w-full h-full overflow-hidden relative cursor-pointer'
+                className='bg-white rounded-lg shadow-lg  overflow-hidden relative cursor-pointer'
               >
                 <PhotoView src={optimizeImageUrl(img, "zoom")}>
                   <img
@@ -167,7 +167,7 @@ const MonoPrints = () => {
                     alt={`Artwork ${i + 1}`}
                     onLoad={(e) => handleImageLoad(e, i)}
                     onContextMenu={(e) => e.preventDefault()}
-                    className="w-full h-full object-cover"
+                    className="w-full h-[400px] object-cover"
                     draggable={false}
                   />
                 </PhotoView>
