@@ -139,7 +139,7 @@ const MonoPrints = () => {
       </section >
 
       {/* Artworks */}
-      < section className={`p-6 md:p-20 bg-gray-100 ${selectedWork.artWorks.length < 3 ? "flex gap-10 justify-center items-center bg-gray-100" : "grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-10"}`} >
+      < section className={`p-6 md:p-20 bg-gray-100 ${selectedWork.artWorks?.length < 3 ? "flex gap-10 justify-center items-center bg-gray-100" : "grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-10"}`} >
         <PhotoProvider
           onVisibleChange={(visible) => {
             if (visible) {
@@ -150,7 +150,7 @@ const MonoPrints = () => {
           }}
         >
 
-          {selectedWork.artWorks.map((img, i) => (
+          {selectedWork.artWorks?.map((img, i) => (
             <div key={i} className={`transition-transform duration-200 hover:scale-105 col-span-1 ${spans[i] ? "sm:col-span-2" : ""}`}>
               <motion.div
                 initial={{ opacity: 0, scale: 0.9 }}
