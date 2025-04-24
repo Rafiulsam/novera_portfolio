@@ -1,4 +1,4 @@
-import React, { use, useEffect, useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import worksData from '../data/worksData';
 import { motion } from 'framer-motion';
@@ -16,6 +16,7 @@ const MonoPrints = () => {
   );
 
   const [spans, setSpans] = useState({});
+  const [tallImages, setTallImages] = useState({});
   const [isLoading, setIsLoading] = useState(true);
 
   const handleImageLoad = (e, index) => {
@@ -23,6 +24,9 @@ const MonoPrints = () => {
     const aspectRatio = naturalWidth / naturalHeight;
     if (aspectRatio > 1.3) {
       setSpans(prev => ({ ...prev, [index]: true }));
+    }
+    if (aspectRatio < 0.5) {
+      setTallImages(prev => ({ ...prev, [index]: true }));
     }
   };
 
@@ -67,7 +71,7 @@ const MonoPrints = () => {
         </motion.div>
       </section>
 
-      {/* Cover Image and Info */}
+      {/* Cover Image */}
       <section className='md:flex justify-between p-10 md:p-20'>
         <PhotoProvider
           onVisibleChange={(visible) => {
@@ -78,7 +82,7 @@ const MonoPrints = () => {
             }
           }}
         >
-          <div className='transition-transform duration-200 hover:scale-105'>
+          <div className='transition-transform duration-200 hover:scale-105 w-1/2'>
             <PhotoView src={optimizeImageUrl(selectedWork.coverImage, "zoom")}>
               <motion.img
                 initial={{ opacity: 0, scale: 0.8 }}
@@ -89,16 +93,18 @@ const MonoPrints = () => {
                 draggable={false}
                 src={optimizeImageUrl(selectedWork.coverImage, "preview")}
                 alt={selectedWork.title}
-                className="object-contain cursor-pointer h-full max-w-[80vh]"
+                className=" rounded-lg object-contain object-center cursor-pointer h-[80vh] max-w-[80vh]"
               />
             </PhotoView>
           </div>
         </PhotoProvider>
-        <div className='flex flex-col justify-between md:w-1/2 text-start'>
+        {/* Text Section */}
+        <div className='flex flex-col justify-between items-center w-1/2'>
           <motion.div
             initial={{ opacity: 0, y: -50 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1 }}
+            className=''
           >
             <h1 className="text-4xl md:text-5xl font-bold mt-10">
               {selectedWork.title}
@@ -128,7 +134,7 @@ const MonoPrints = () => {
                       onContextMenu={(e) => e.preventDefault()}
                       src={texture}
                       alt={`Texture ${i + 1}`}
-                      className="w-20 h-20 md:w-48 md:h-48 rounded-full object-cover border-2 border-gray-300 shadow-lg cursor-pointer"
+                      className="w-20 h-20 md:w-40 md:h-40 rounded-full object-cover border-2 border-gray-300 shadow-lg cursor-pointer"
                     />
                   </PhotoView>
                 </div>
@@ -139,15 +145,15 @@ const MonoPrints = () => {
       </section >
 
       {/* Artworks */}
-      < section className={`p-6 md:p-20 bg-gray-100 ${selectedWork.artWorks?.length < 3 ? "flex gap-10 justify-center items-center bg-gray-100" : "grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-10"}`} >
+      < section className={`p-6 md:p-20 bg-gray-100 ${selectedWork.artWorks?.length < 3 ? "flex gap-10 justify-center items-center bg-gray-100" : "grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-5"}`} >
         <PhotoProvider
-          onVisibleChange={(visible) => {
-            if (visible) {
-              document.addEventListener("contextmenu", handleContextMenu);
-            } else {
-              document.removeEventListener("contextmenu", handleContextMenu);
-            }
-          }}
+          // onVisibleChange={(visible) => {
+          //   if (visible) {
+          //     document.addEventListener("contextmenu", handleContextMenu);
+          //   } else {
+          //     document.removeEventListener("contextmenu", handleContextMenu);
+          //   }
+          // }}
         >
 
           {selectedWork.artWorks?.map((img, i) => (
@@ -157,15 +163,17 @@ const MonoPrints = () => {
                 whileInView={{ opacity: 1, scale: 1 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.5, delay: i * 0.1 }}
-                className='bg-white rounded-lg shadow-lg  overflow-hidden relative cursor-pointer'
+                className='bg-white rounded-lg shadow-lg  overflow-hidden relative h-full cursor-pointer'
               >
                 <PhotoView src={optimizeImageUrl(img, "zoom")}>
                   <img
                     src={optimizeImageUrl(img, "preview")}
                     alt={`Artwork ${i + 1}`}
                     onLoad={(e) => handleImageLoad(e, i)}
-                    onContextMenu={(e) => e.preventDefault()}
-                    className="w-full h-[400px] object-cover"
+                    // onContextMenu={(e) => e.preventDefault()}
+                    className={`w-full rounded-lg ${
+                      tallImages[i] ? "object-contain object-center h-[420px] bg-gray-100" : "object-cover h-full"
+                    }`}
                     draggable={false}
                   />
                 </PhotoView>

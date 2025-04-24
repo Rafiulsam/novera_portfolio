@@ -45,7 +45,8 @@ export default [
       "https://ik.imagekit.io/5lfj67b0tg/New%20folder/MONOPRINTS/Dancing%20Spirits/IMG_1249.JPG?",
       "https://ik.imagekit.io/5lfj67b0tg/New%20folder/MONOPRINTS/Dancing%20Spirits/IMG_1246.JPG?",
       "https://ik.imagekit.io/5lfj67b0tg/New%20folder/MONOPRINTS/Dancing%20Spirits/IMG_1233.JPG?",
-      "https://ik.imagekit.io/5lfj67b0tg/New%20folder/MONOPRINTS/Dancing%20Spirits/IMG_1232.JPG?"
+      "https://ik.imagekit.io/5lfj67b0tg/New%20folder/MONOPRINTS/Dancing%20Spirits/IMG_1232.JPG?",
+      "https://ik.imagekit.io/5lfj67b0tg/New%20folder/MONOPRINTS/Dancing%20Spirits/IMG_1225.JPG?updatedAt=1744739912467"
     ],
   },
   {
@@ -254,8 +255,8 @@ export default [
       "https://ik.imagekit.io/5lfj67b0tg/New%20folder/MONOPRINTS/Forest%20Girl/IMG_1241.JPG?",
       "https://ik.imagekit.io/5lfj67b0tg/New%20folder/MONOPRINTS/Forest%20Girl/IMG_1230.JPG?",
       "https://ik.imagekit.io/5lfj67b0tg/New%20folder/MONOPRINTS/Forest%20Girl/IMG_1226.JPG?",
+      "https://ik.imagekit.io/5lfj67b0tg/New%20folder/MONOPRINTS/Forest%20Girl/IMG_1222.JPG?", 
       "https://ik.imagekit.io/5lfj67b0tg/New%20folder/MONOPRINTS/Forest%20Girl/IMG_1272.JPG?",
-      "https://ik.imagekit.io/5lfj67b0tg/New%20folder/MONOPRINTS/Forest%20Girl/IMG_1243.JPG?",
     ]
   },
   {
