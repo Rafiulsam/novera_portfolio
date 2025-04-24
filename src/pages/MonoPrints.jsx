@@ -145,15 +145,15 @@ const MonoPrints = () => {
       </section >
 
       {/* Artworks */}
-      < section className={`p-6 md:p-20 bg-gray-100 ${selectedWork.artWorks?.length < 3 ? "flex gap-10 justify-center items-center bg-gray-100" : "grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-5"}`} >
+      < section className={`p-6 md:p-20 bg-gray-100 ${selectedWork.artWorks?.length < 3 ? "flex gap-10 justify-center items-center" : "grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-5"}`} >
         <PhotoProvider
-          // onVisibleChange={(visible) => {
-          //   if (visible) {
-          //     document.addEventListener("contextmenu", handleContextMenu);
-          //   } else {
-          //     document.removeEventListener("contextmenu", handleContextMenu);
-          //   }
-          // }}
+          onVisibleChange={(visible) => {
+            if (visible) {
+              document.addEventListener("contextmenu", handleContextMenu);
+            } else {
+              document.removeEventListener("contextmenu", handleContextMenu);
+            }
+          }}
         >
 
           {selectedWork.artWorks?.map((img, i) => (
@@ -163,17 +163,18 @@ const MonoPrints = () => {
                 whileInView={{ opacity: 1, scale: 1 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.5, delay: i * 0.1 }}
-                className='bg-white rounded-lg shadow-lg  overflow-hidden relative h-full cursor-pointer'
+                className='bg-white rounded-lg shadow-lg  overflow-hidden relative h-[420px] cursor-pointer'
               >
                 <PhotoView src={optimizeImageUrl(img, "zoom")}>
                   <img
                     src={optimizeImageUrl(img, "preview")}
                     alt={`Artwork ${i + 1}`}
                     onLoad={(e) => handleImageLoad(e, i)}
-                    // onContextMenu={(e) => e.preventDefault()}
-                    className={`w-full rounded-lg ${
-                      tallImages[i] ? "object-contain object-center h-[420px] bg-gray-100" : "object-cover h-full"
+                    onContextMenu={(e) => e.preventDefault()}
+                    className={`w-full h-full rounded-lg ${
+                      tallImages[i] ? "object-contain object-center bg-gray-100" : "object-cover "
                     }`}
+                    loading='lazy'
                     draggable={false}
                   />
                 </PhotoView>

@@ -14,10 +14,9 @@ const OtherWorks = () => {
     const [isDragging, setIsDragging] = useState(false);
 
     const settings = {
-        dots: true,
+        dots: false,
         infinite: true,
         speed: 1000,
-        arrows: false,
         slidesToShow: 4,
         slidesToScroll: 1,
         autoplay: true,

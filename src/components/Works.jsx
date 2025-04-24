@@ -27,8 +27,7 @@ const Works = () => {
       </motion.h1>
       {/* Monoprints */}
       <div className='border-2 border-gray-300 rounded-lg p-6 md:p-10 bg-white shadow-lg'>
-        <div
-          className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-5">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-5">
           {worksData.map((art, i) => (
             <motion.div
               initial={{ opacity: 0, scale: 0.8 }}
