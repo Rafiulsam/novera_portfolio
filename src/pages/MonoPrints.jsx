@@ -82,7 +82,7 @@ const MonoPrints = () => {
             }
           }}
         >
-          <div className='transition-transform duration-200 hover:scale-105 w-1/2'>
+          <div className='transition-transform duration-200 hover:scale-105 md:w-1/2'>
             <PhotoView src={optimizeImageUrl(selectedWork.coverImage, "zoom")}>
               <motion.img
                 initial={{ opacity: 0, scale: 0.8 }}
@@ -93,13 +93,13 @@ const MonoPrints = () => {
                 draggable={false}
                 src={optimizeImageUrl(selectedWork.coverImage, "preview")}
                 alt={selectedWork.title}
-                className=" rounded-lg object-contain object-center cursor-pointer h-[80vh] max-w-[80vh]"
+                className=" rounded-lg object-contain object-center cursor-pointer md:h-[80vh] md:max-w-[80vh]"
               />
             </PhotoView>
           </div>
         </PhotoProvider>
         {/* Text Section */}
-        <div className='flex flex-col justify-between items-center w-1/2'>
+        <div className='flex flex-col justify-between items-center md:w-1/2'>
           <motion.div
             initial={{ opacity: 0, y: -50 }}
             animate={{ opacity: 1, y: 0 }}
@@ -163,16 +163,19 @@ const MonoPrints = () => {
                 whileInView={{ opacity: 1, scale: 1 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.5, delay: i * 0.1 }}
-                className='bg-white rounded-lg shadow-lg  overflow-hidden relative h-[420px] cursor-pointer'
+                className='bg-white rounded-lg shadow-lg overflow-hidden relative h-[60vh] cursor-pointer'
               >
-                <PhotoView src={optimizeImageUrl(img, "zoom")}>
+                <PhotoView 
+                src={optimizeImageUrl(img, "zoom")}
+                height={200}
+                >
                   <img
                     src={optimizeImageUrl(img, "preview")}
                     alt={`Artwork ${i + 1}`}
                     onLoad={(e) => handleImageLoad(e, i)}
                     onContextMenu={(e) => e.preventDefault()}
                     className={`w-full h-full rounded-lg ${
-                      tallImages[i] ? "object-contain object-center bg-gray-100" : "object-cover "
+                      tallImages[i] ? "object-contain object-center bg-gray-100  ": "object-cover "
                     }`}
                     loading='lazy'
                     draggable={false}
@@ -184,10 +187,10 @@ const MonoPrints = () => {
           ))}
         </PhotoProvider>
       </section >
-      <div className='bg-gray-100 px-10 pb-20'>
+      <div className='bg-gray-100 px-6 pb-20'>
         <button
           onClick={() => window.history.back()}
-          className='px-10 flex items-center gap-5 font-thin tracking-[5px]'> <BsArrowLeft /> Go Back</button>
+          className='md:px-14 flex items-center gap-5 font-thin tracking-[5px]'> <BsArrowLeft /> Go Back</button>
       </div>
     </div >
   );

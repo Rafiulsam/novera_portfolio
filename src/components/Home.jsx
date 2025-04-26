@@ -3,7 +3,7 @@ const Home = () => {
   return (
     <section
       id="home"
-      className="min-h-screen flex items-center justify-center text-white text-center bg-cover bg-center bg-no-repeat"
+      className="overflow-hidden min-h-screen flex items-center justify-center text-white text-center bg-cover bg-center bg-no-repeat"
       style={{
         backgroundImage: "url('background.JPG')",
         backgroundAttachment: 'fixed',

@@ -32,6 +32,7 @@ const OtherWorks = () => {
             {
                 breakpoint: 640,
                 settings: {
+                    arrows: false,
                     slidesToShow: 1,
                 },
             },
