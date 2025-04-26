@@ -4,6 +4,7 @@ import Home from './components/Home'
 import About from './components/About'
 import Works from './components/Works'
 import OtherWorks from "./components/OtherWorks";
+import ScrollToTopButton from "./components/ScrollToTopButton";
 
 function App() {
   const location = useLocation();
@@ -34,6 +35,7 @@ function App() {
       <Home />
       <About />
       <Works />
+      <ScrollToTopButton />
       <OtherWorks />
     </>
   )
