@@ -1,25 +1,31 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { motion } from 'framer-motion';
 
 const Contact = () => {
+    const [success, setSuccess] = useState("");
+    const [bgLoaded, setBgLoaded] = useState(false);
 
-    const [success, setSuccess ] = useState("");
-
-    // const handleSubmit = (e) => {
-    //     e.preventDefault();
-    //     setSuccess("Message submitted! Thank you.");
-
-       
-    // }
+    useEffect(() => {
+        const img = new Image();
+        img.src = "contact_background.JPG";
+        img.onload = () => {
+            setBgLoaded(true);
+        };
+    }, []);
 
     return (
-        <div className="">
-            <div className="min-h-screen text-white flex flex-col justify-center items-center bg-cover bg-center bg-no-repeat"
-                style={{
-                    backgroundImage: "url('contact_background.JPG')",
-                    backgroundAttachment: 'fixed',
-                }}>
-                {/* Overlay */}
+        <div >
+            <div className="min-h-screen text-white flex flex-col justify-center items-center relative overflow-hidden">
+                {/* Background Image */}
+                <div
+                    className={`absolute inset-0 bg-cover bg-center bg-no-repeat transition-all duration-700 ${bgLoaded ? "blur-0" : "blur-md"}`}
+                    style={{
+                        backgroundImage: "url('contact_background.JPG')",
+                        backgroundAttachment: 'fixed',
+                        zIndex: 0,
+                    }}
+                ></div>
+                {/* Black Overlay */}
                 <div className="absolute inset-0 bg-black/30"></div>
                 <motion.div
                     initial={{ opacity: 0, y: -30 }}

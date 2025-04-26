@@ -18,6 +18,15 @@ const MonoPrints = () => {
   const [spans, setSpans] = useState({});
   const [tallImages, setTallImages] = useState({});
   const [isLoading, setIsLoading] = useState(true);
+  const [bgLoaded, setBgLoaded] = useState(false);
+
+  useEffect(() => {
+    const img = new Image();
+    img.src = "/monoprint_background.png";
+    img.onload = () => {
+      setBgLoaded(true);
+    };
+  }, []);
 
   const handleImageLoad = (e, index) => {
     const { naturalWidth, naturalHeight } = e.target;
@@ -49,11 +58,17 @@ const MonoPrints = () => {
       {/* Header */}
       <section
         className="min-h-[30svh] md:min-h-[75svh] flex justify-end items-center overflow-hidden bg-center md:bg-top md:bg-contain bg-no-repeat relative"
+      >
+         {/* Background Image */}
+      <div
+        className={`absolute inset-0 bg-cover bg-center bg-no-repeat transition-all duration-700 ${bgLoaded ? "blur-0" : "blur-md"}`}
         style={{
           backgroundImage: "url('/monoprint_background.png')",
           backgroundAttachment: 'fixed',
+          zIndex: 0,
         }}
-      >
+      ></div>
+        {/* Black Overlay */}
         <div className="absolute inset-0 bg-black opacity-30" />
         <motion.div
           initial={{ opacity: 0, y: -50 }}
@@ -124,7 +139,7 @@ const MonoPrints = () => {
           >
             <div className='flex gap-4 mt-10'>
               {selectedWork.artTextures?.map((texture, i) => (
-                <div key={i} className='transition-transform duration-200 hover:scale-105'>
+                <div key={i} className={`transition-transform duration-200 hover:scale-105 ${bgLoaded ? "blur-0" : "blur-md"}`}>
                   <PhotoView src={texture}>
                     <motion.img
                       initial={{ opacity: 0, scale: 0.8 }}
