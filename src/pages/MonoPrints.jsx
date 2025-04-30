@@ -177,7 +177,7 @@ const MonoPrints = () => {
                 whileInView={{ opacity: 1, scale: 1 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.5, delay: i * 0.1 }}
-                className='bg-white rounded-lg shadow-lg overflow-hidden relative h-[60vh] cursor-pointer'
+                className='bg-white rounded-lg shadow-lg overflow-hidden relative md:h-[60vh] cursor-pointer'
               >
                 <PhotoView 
                 src={optimizeImageUrl(img, "zoom")}
@@ -188,7 +188,7 @@ const MonoPrints = () => {
                     alt={`Artwork ${i + 1}`}
                     onLoad={(e) => handleImageLoad(e, i)}
                     onContextMenu={(e) => e.preventDefault()}
-                    className={`w-full h-full rounded-lg ${
+                    className={`md:w-full md:h-full rounded-lg ${
                       tallImages[i] ? "object-contain object-center bg-gray-100  ": "object-cover "
                     }`}
                     loading='lazy'
