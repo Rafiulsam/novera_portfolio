@@ -39,7 +39,7 @@ const About = () => (
       <img
         src="picture.JPG"
         alt="About Me"
-        className="h-[450px] md:h-full relative translate-x-6 md:translate-x-20 rounded-l-3xl"
+        className="h-full w-full relative translate-x-6 md:translate-x-20 rounded-l-3xl"
       />
     </motion.div>
   </section>

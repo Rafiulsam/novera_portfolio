@@ -47,9 +47,15 @@ const Works = () => {
                   onLoad={(e) => handleImageLoad(e, i)}
                   onContextMenu={(e) => e.preventDefault()}
                   loading='lazy'
-                  className="w-full h-full object-cover"
+                  className="md:w-full md:h-full object-cover"
                 />
-                <div className="absolute bottom-0 left-0 w-full h-1/3 bg-[#003153] bg-opacity-75 text-gray-300 px-6 py-4 transition duration-200 opacity-0 group-hover:opacity-100 flex flex-col justify-end pb-14">
+                <div className="hidden absolute bottom-0 left-0 w-full h-1/3 bg-[#003153] bg-opacity-75 text-gray-300 px-6 py-4 transition duration-200 opacity-0 group-hover:opacity-100 md:flex flex-col justify-end pb-10">
+                  <h2 className="text-xl text-white font-semibold">{art.title}</h2>
+                  <p className="text-md text-gray-300">{art.series}</p>
+                  <p className="text-md text-gray-300 mt-5">Click to view more</p>
+                </div>
+                {/* Mobile View */}
+                <div className="md:hidden bg-[#003153]  text-gray-300 px-6 py-4 flex flex-col justify-end ">
                   <h2 className="text-xl text-white font-semibold">{art.title}</h2>
                   <p className="text-md text-gray-300">{art.series}</p>
                   <p className="text-md text-gray-300 mt-5">Click to view more</p>

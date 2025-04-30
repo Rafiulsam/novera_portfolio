@@ -14,7 +14,7 @@ const Home = () => {
 
   return (
     <section id="home"
-      className="relative overflow-hidden min-h-screen flex items-center justify-center text-white text-center"
+      className="relative overflow-hidden h-[100dvh] md:min-h-screen flex items-center justify-center text-white text-center"
     >
       {/* Background Image */}
       <div

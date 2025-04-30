@@ -64,8 +64,7 @@ const MonoPrints = () => {
         className={`absolute inset-0 bg-cover bg-center bg-no-repeat transition-all duration-700 ${bgLoaded ? "blur-0" : "blur-md"}`}
         style={{
           backgroundImage: "url('/monoprint_background.png')",
-          backgroundAttachment: 'fixed',
-          zIndex: 0,
+          backgroundAttachment: 'fixed'
         }}
       ></div>
         {/* Black Overlay */}
@@ -139,7 +138,7 @@ const MonoPrints = () => {
           >
             <div className='flex gap-4 mt-10'>
               {selectedWork.artTextures?.map((texture, i) => (
-                <div key={i} className={`transition-transform duration-200 hover:scale-105 ${bgLoaded ? "blur-0" : "blur-md"}`}>
+                <div key={i} className="transition-transform duration-200 hover:scale-105">
                   <PhotoView src={texture}>
                     <motion.img
                       initial={{ opacity: 0, scale: 0.8 }}
@@ -149,7 +148,7 @@ const MonoPrints = () => {
                       onContextMenu={(e) => e.preventDefault()}
                       src={texture}
                       alt={`Texture ${i + 1}`}
-                      className="w-20 h-20 md:w-40 md:h-40 rounded-full object-cover border-2 border-gray-300 shadow-lg cursor-pointer"
+                      className={`w-20 h-20 md:w-40 md:h-40 rounded-full object-cover border-2 border-gray-300 shadow-lg cursor-pointer transition-all duration-700 ${bgLoaded ? "blur-0" : "blur-md"}`}
                     />
                   </PhotoView>
                 </div>
