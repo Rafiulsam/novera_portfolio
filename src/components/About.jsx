@@ -20,7 +20,7 @@ const About = () => (
         initial={{ opacity: 0, y: 40 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6, delay: 0.2, ease: "easeOut" }}
-        className="text-white/90 text-base md:text-lg leading-relaxed md:pr-12 text-justify"
+        className="text-white/90 text-base md:text-lg leading-relaxed md:pr-12 text-left "
       >
         <p>
           You have found your way into a quiet space where I share my journey through monoprints and traditional printmaking. Though I’ve explored various mediums, this gallery focuses on the tactile and expressive nature of print-based works — where textures, layers, and marks tell their own stories.
