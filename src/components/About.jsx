@@ -27,7 +27,10 @@ const About = () => (
         </p>
         <br />
         <p>
-          With a Bachelor’s and Master’s degree in Fine Arts (Printmaking), my practice is grounded in emotion, technique, and storytelling. I explore themes of movement, nature, and personal memory, allowing each piece to reflect moments both deeply personal and universally felt.
+          With a Bachelor’s and Master’s degree in Fine Arts (Printmaking), my practice is grounded in emotion, technique, and storytelling. 
+          </p>
+          <p>
+          I explore themes of movement, nature, and personal memory, allowing each piece to reflect moments both deeply personal and universally felt.
         </p>
         <br />
         <p>
