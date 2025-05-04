@@ -42,7 +42,7 @@ const Home = () => {
         >
           Hi, I'm Novera
         </h1>
-        <p className="text-xl text-gray-200">A visual storyteller through art</p>
+        <p className="text-xl text-gray-200">Narrating dreams and feelings through form and color.</p>
       </motion.div>
     </section>
   );

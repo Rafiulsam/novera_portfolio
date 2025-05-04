@@ -14,7 +14,7 @@ const Contact = () => {
     }, []);
 
     return (
-        <div >
+        <>
             <div className="min-h-screen text-white flex flex-col justify-center items-center relative overflow-hidden">
                 {/* Background Image */}
                 <div
@@ -43,7 +43,7 @@ const Contact = () => {
             <div className='flex justify-center items-center min-h-screen px-4'>
                 {/* Contact Form */}
                 <motion.form
-                    className="w-full max-w-2xl bg-white rounded-2xl shadow-lg p-8 space-y-6"
+                    className="bg-gray-100 my-20 w-full max-w-2xl rounded-2xl shadow-lg p-8 space-y-6"
                     initial={{ opacity: 0, scale: 0.95 }}
                     animate={{ opacity: 1, scale: 1 }}
                     transition={{ delay: 0.5, duration: 0.5 }}
@@ -63,7 +63,7 @@ const Contact = () => {
                         <label className="font-semibold mb-2">Name</label>
                         <input
                             type="text"
-                            className="border-b border-black px-4 py-2 focus:outline-none"
+                            className="bg-gray-100 border-b border-black px-4 py-2 focus:outline-none"
                             placeholder='Your name'
                             required
                         />
@@ -72,15 +72,15 @@ const Contact = () => {
                         <label className="font-semibold mb-2">Email </label>
                         <input
                             type="email"
-                            className="border-b border-black px-4 py-2 focus:outline-none"
+                            className="bg-gray-100 border-b border-black px-4 py-2 focus:outline-none"
                             placeholder='Your email'
                             required
                         />
                     </div>
                     <div className="flex flex-col">
                         <label className="font-semibold mb-2">Message</label>
-                        <textarea
-                            className="border-b border-black px-4 py-2 focus:outline-none"
+                        <textarea rows="4"
+                            className="bg-gray-100 border-b border-black px-4 py-2 focus:outline-none"
                             placeholder='Your message'
                             required
                         ></textarea>
@@ -105,7 +105,7 @@ const Contact = () => {
                     </div>
                 </motion.form>
             </div>
-        </div>
+        </>
     );
 };
 

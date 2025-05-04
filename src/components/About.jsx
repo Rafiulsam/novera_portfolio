@@ -6,7 +6,7 @@ const About = () => (
     className="relative overflow-hidden min-h-screen flex flex-col md:flex-row justify-between items-center gap-10 md:gap-20 px-6 md:px-16 py-10 md:py-20 bg-gradient-to-b from-[#385b34] to-[#927c57]"
   >
     {/* Text Section */}
-    <div className="max-w-3xl text-center md:text-left pt-10 md:pt-0">
+    <div className="max-w-xl text-center md:text-left pt-10 md:pt-0">
       <motion.h2
         initial={{ opacity: 0, y: 40 }}
         whileInView={{ opacity: 1, y: 0 }}
@@ -16,16 +16,24 @@ const About = () => (
         About Me
       </motion.h2>
 
-      <motion.p
+      <motion.div
         initial={{ opacity: 0, y: 40 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6, delay: 0.2, ease: "easeOut" }}
-        className="text-white/90 text-base md:text-lg leading-relaxed md:pr-12"
+        className="text-white/90 text-base md:text-lg leading-relaxed md:pr-12 text-justify"
       >
-        I'm an artist who loves exploring emotion, nature, and movement through
-        different mediums — from digital illustrations to traditional oils. This
-        space is my digital sketchbook and gallery.
-      </motion.p>
+        <p>
+          You have found your way into a quiet space where I share my journey through monoprints and traditional printmaking. Though I’ve explored various mediums, this gallery focuses on the tactile and expressive nature of print-based works — where textures, layers, and marks tell their own stories.
+        </p>
+        <br />
+        <p>
+          With a Bachelor’s and Master’s degree in Fine Arts (Printmaking), my practice is grounded in emotion, technique, and storytelling. I explore themes of movement, nature, and personal memory, allowing each piece to reflect moments both deeply personal and universally felt.
+        </p>
+        <br />
+        <p>
+          Welcome to the garden of my creations — you may also consider this place as my gallery.
+        </p>
+      </motion.div>
     </div>
 
     {/* Image Section */}
@@ -34,7 +42,7 @@ const About = () => (
       whileInView={{ opacity: 1, scale: 1 }}
       transition={{ duration: 0.6, ease: "easeOut" }}
       viewport={{ once: true }}
-      
+
     >
       <img
         src="picture.JPG"
