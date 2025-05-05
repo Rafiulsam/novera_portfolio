@@ -1,9 +1,11 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import { motion } from 'framer-motion';
+import emailjs from '@emailjs/browser';
 
 const Contact = () => {
     const [success, setSuccess] = useState("");
     const [bgLoaded, setBgLoaded] = useState(false);
+    const form = useRef()
 
     useEffect(() => {
         const img = new Image();
@@ -12,6 +14,27 @@ const Contact = () => {
             setBgLoaded(true);
         };
     }, []);
+
+    const handleOnSubmit = (e) => {
+        e.preventDefault();
+
+        emailjs
+            .sendForm(import.meta.env.VITE_EMAILJS_SERVICE_ID,
+                import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
+                form.current, {
+                publicKey: import.meta.env.VITE_EMAILJS_PUBLIC_KEY
+            })
+            .then(
+                () => {
+                    setSuccess("Message submitted! Thank you.");
+                    form.current.reset();
+                },
+                (error) => {
+                    console.error(error.text);
+                    setSuccess("Failed to send message. Please try again.");
+                },
+            );
+    }
 
     return (
         <>
@@ -47,11 +70,7 @@ const Contact = () => {
                     initial={{ opacity: 0, scale: 0.95 }}
                     animate={{ opacity: 1, scale: 1 }}
                     transition={{ delay: 0.5, duration: 0.5 }}
-                    onSubmit={(e) => {
-                        e.preventDefault();
-                        setSuccess("Message submitted! Thank you.");
-                        e.target.reset();
-                    }}
+                    onSubmit={handleOnSubmit} ref={form}
                 >
                     <motion.h1
                         initial={{ opacity: 0, y: -30 }}
@@ -63,6 +82,7 @@ const Contact = () => {
                         <label className="font-semibold mb-2">Name</label>
                         <input
                             type="text"
+                            name='name'
                             className="bg-gray-100 border-b border-black px-4 py-2 focus:outline-none"
                             placeholder='Your name'
                             required
@@ -72,6 +92,7 @@ const Contact = () => {
                         <label className="font-semibold mb-2">Email </label>
                         <input
                             type="email"
+                            name='email'
                             className="bg-gray-100 border-b border-black px-4 py-2 focus:outline-none"
                             placeholder='Your email'
                             required
@@ -80,6 +101,7 @@ const Contact = () => {
                     <div className="flex flex-col">
                         <label className="font-semibold mb-2">Message</label>
                         <textarea rows="4"
+                        name='message'
                             className="bg-gray-100 border-b border-black px-4 py-2 focus:outline-none"
                             placeholder='Your message'
                             required

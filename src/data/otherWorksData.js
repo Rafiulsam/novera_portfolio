@@ -34,7 +34,7 @@ export default [
         ]
     },
     {
-        title: "Untitled",
+        title: "Tow Sisters",
         media: "Screen Print or Serigraphy",
         coverImage:"https://ik.imagekit.io/5lfj67b0tg/New%20folder/SCREEN%20PRINT%20or%20SERIGRAPHY/1/IMG_1366.JPG?tr=w-250,q-60,fo-auto",
         artWorks:[
@@ -78,5 +78,45 @@ export default [
             "https://ik.imagekit.io/5lfj67b0tg/New%20folder/INTAGLIO%20PROCESS/DRY%20POINT.JPG?",
             "https://ik.imagekit.io/5lfj67b0tg/New%20folder/INTAGLIO%20PROCESS/DRY%20POINT%20(3).JPG?"
         ]
-    }
+    },
+    {
+        title: "Portrait",
+        media: "Monprint",
+        coverImage:"https://ik.imagekit.io/5lfj67b0tg/New%20folder/MONOPRINTS/13/Portrait%20(2).JPG?updatedAt=1744739990716",
+        artWorks: [
+            "https://ik.imagekit.io/5lfj67b0tg/New%20folder/MONOPRINTS/13/Portrait%20(2).JPG?",
+            "https://ik.imagekit.io/5lfj67b0tg/New%20folder/MONOPRINTS/13/Two%20Sisters%20.JPG?updatedAt=1744740007168",
+            "https://ik.imagekit.io/5lfj67b0tg/New%20folder/MONOPRINTS/13/Portrait.JPG?updatedAt=1744739990722",
+            "https://ik.imagekit.io/5lfj67b0tg/New%20folder/MONOPRINTS/13/Portrait%20.JPG?updatedAt=1744739991652",
+            "https://ik.imagekit.io/5lfj67b0tg/New%20folder/MONOPRINTS/13/Portrait%20(1).JPG?updatedAt=1744739988250",
+            "https://ik.imagekit.io/5lfj67b0tg/New%20folder/MONOPRINTS/13/Self%20Portrait%20%20.JPG?updatedAt=1744740000066"
+          ],
+    },
+    {
+        title: "Untitled",
+        media: "Monprint",
+        coverImage:"https://ik.imagekit.io/5lfj67b0tg/New%20folder/MONOPRINTS/8/_Vabonar%20Dal%201_%20(Brunch%20of%20Thoughts%201)%20.JPG?updatedAt=1744739981423",
+        artWorks: [
+            "https://ik.imagekit.io/5lfj67b0tg/New%20folder/MONOPRINTS/8/_Vabonar%20Dal%201_%20(Brunch%20of%20Thoughts%201)%20.JPG?updatedAt=1744739981423",
+            "https://ik.imagekit.io/5lfj67b0tg/New%20folder/MONOPRINTS/8/_Vabonar%20Dal%203_%20(Brunch%20of%20Thoughts%203)%20.JPG?updatedAt=1744739987544",
+            "https://ik.imagekit.io/5lfj67b0tg/New%20folder/MONOPRINTS/8/_Chand%20Sromik_%20(Moon%20Worker)%20.JPG?updatedAt=1744739981749",
+            "https://ik.imagekit.io/5lfj67b0tg/New%20folder/MONOPRINTS/8/_Ogrodut_%20(Vangourd)%20.JPG?updatedAt=1744739979147",
+            "https://ik.imagekit.io/5lfj67b0tg/New%20folder/MONOPRINTS/8/_Vabonar%20Dal%202_%20(Brunch%20of%20Thoughts%202)%20.JPG?updatedAt=1744739975857",
+            "https://ik.imagekit.io/5lfj67b0tg/New%20folder/MONOPRINTS/8/9X4A1215.JPG?updatedAt=1744739965634"
+          ],
+    },
+    {
+        title: "Untitled",
+        media: "Digital Inkjet Print (Photo Manipulation)",
+        coverImage:"https://ik.imagekit.io/5lfj67b0tg/New%20folder/Digital%20Inkjet%20Print%20(Photo%20Manipulation)/final%203.jpg?updatedAt=1746403716970",
+        artWorks: [
+            "https://ik.imagekit.io/5lfj67b0tg/New%20folder/Digital%20Inkjet%20Print%20(Photo%20Manipulation)/final%203.jpg?updatedAt=1746403716970",
+            "https://ik.imagekit.io/5lfj67b0tg/New%20folder/Digital%20Inkjet%20Print%20(Photo%20Manipulation)/rana%20sir%202.1%20.jpg?updatedAt=1746403716184",
+            "https://ik.imagekit.io/5lfj67b0tg/New%20folder/Digital%20Inkjet%20Print%20(Photo%20Manipulation)/rana%20sir%202.jpg?updatedAt=1746403715984",
+            "https://ik.imagekit.io/5lfj67b0tg/New%20folder/Digital%20Inkjet%20Print%20(Photo%20Manipulation)/rana%20sir%201.jpg?updatedAt=1746403715667",
+            "https://ik.imagekit.io/5lfj67b0tg/New%20folder/Digital%20Inkjet%20Print%20(Photo%20Manipulation)/rana%20sir%20%205.jpg?updatedAt=1746403714659",
+            "https://ik.imagekit.io/5lfj67b0tg/New%20folder/Digital%20Inkjet%20Print%20(Photo%20Manipulation)/rana%20sir%204.jpg?updatedAt=1746403714656",
+            "https://ik.imagekit.io/5lfj67b0tg/New%20folder/Digital%20Inkjet%20Print%20(Photo%20Manipulation)/rana%20sir%203.jpg?updatedAt=1746403714587"
+          ],
+    },
 ]

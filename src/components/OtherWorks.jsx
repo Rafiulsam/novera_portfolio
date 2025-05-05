@@ -41,7 +41,7 @@ const OtherWorks = () => {
 
     const handleContextMenu = (e) => {
         e.preventDefault();
-      };
+    };
 
     useEffect(() => {
         document.body.style.overflow = selectedWork ? "hidden" : "";
@@ -66,25 +66,30 @@ const OtherWorks = () => {
 
             <Slider {...settings}>
                 {otherWorksData.map((art, i) => (
-                    <div
-                        key={i}
-                        className="py-10"
-                        onMouseDown={() => setIsDragging(false)}
-                        onMouseMove={() => setIsDragging(true)}
-                        onMouseUp={() => {
-                            if (!isDragging) setSelectedWork(art);
-                        }}
-                    >
-                        <div className=" flex flex-col justify-between bg-white rounded-lg shadow-lg p-6 cursor-pointer transition-transform duration-200 hover:scale-105 w-[250px] h-[350px] mx-auto">
-                            <img
-                                onContextMenu={(e) => e.preventDefault()}
-                                src={art.coverImage} alt="" className="rounded-lg mb-4 object-cover h-full " />
-                            <div>
-                                <h2 className="text-xl font-semibold">{art.title}</h2>
-                                <p className="text-gray-600">{art.media}</p>
-                            </div>
-                        </div>
-                    </div>
+                   <div
+                   key={i}
+                   className="px-3 py-10 h-full" // <-- Added px-3
+                   onMouseDown={() => setIsDragging(false)}
+                   onMouseMove={() => setIsDragging(true)}
+                   onMouseUp={() => {
+                     if (!isDragging) setSelectedWork(art);
+                   }}
+                 >
+                   <div className="flex flex-col bg-white rounded-lg shadow-lg p-6 cursor-pointer transition-transform duration-200 hover:scale-105 w-[250px] h-[350px] mx-auto">
+                     <div className="h-[250px] flex items-center justify-center overflow-hidden mb-4">
+                       <img
+                         onContextMenu={(e) => e.preventDefault()}
+                         src={art.coverImage}
+                         alt=""
+                         className="object-cover h-full w-full rounded-lg"
+                       />
+                     </div>
+                     <div>
+                       <h2 className="text-xl font-semibold">{art.title}</h2>
+                       <p className="text-gray-600">{art.media}</p>
+                     </div>
+                   </div>
+                 </div>                 
                 ))}
             </Slider>
 

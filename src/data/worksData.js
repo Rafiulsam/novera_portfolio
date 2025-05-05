@@ -642,48 +642,4 @@ export default [
       "https://ik.imagekit.io/5lfj67b0tg/New%20folder/MONOPRINTS/9/_Haowa_%20(Eve)/IMG_1169.JPG?updatedAt=1744739958182",
     ],
   },
-  {
-    title: "Portrait",
-    description: [
-      {
-        children: [
-          {
-            text: "This series captures shifting emotional states — confusion, vulnerability, relationship, tenderness, and surreal joy. Each face reflects a different inner weather. Through layered strokes and expressive distortions, I tried to paint feelings more than people. These are moods made visible — the kind that linger quietly, just beneath the skin."
-          }
-        ]
-      }
-    ],
-    artTextures: [
-      "https://ik.imagekit.io/5lfj67b0tg/New%20folder/MONOPRINTS/13/close%20ups/IMG_1167.JPG?updatedAt=1745427524110",
-      "https://ik.imagekit.io/5lfj67b0tg/New%20folder/MONOPRINTS/13/close%20ups/IMG_1166.JPG?updatedAt=1745427523845",
-      "https://ik.imagekit.io/5lfj67b0tg/New%20folder/MONOPRINTS/13/close%20ups/IMG_1379.JPG?updatedAt=1745427523057",
-    ],
-    series: "Monoprint Series",
-    coverImage: "https://ik.imagekit.io/5lfj67b0tg/New%20folder/MONOPRINTS/13/Portrait%20(2).JPG?updatedAt=1744739990716",
-    artWorks: [
-      "https://ik.imagekit.io/5lfj67b0tg/New%20folder/MONOPRINTS/13/Two%20Sisters%20.JPG?updatedAt=1744740007168",
-      "https://ik.imagekit.io/5lfj67b0tg/New%20folder/MONOPRINTS/13/Portrait.JPG?updatedAt=1744739990722",
-      "https://ik.imagekit.io/5lfj67b0tg/New%20folder/MONOPRINTS/13/Portrait%20.JPG?updatedAt=1744739991652",
-      "https://ik.imagekit.io/5lfj67b0tg/New%20folder/MONOPRINTS/13/Portrait%20(1).JPG?updatedAt=1744739988250",
-      "https://ik.imagekit.io/5lfj67b0tg/New%20folder/MONOPRINTS/13/Self%20Portrait%20%20.JPG?updatedAt=1744740000066"
-    ],
-  },
-  {
-    title: "Nrittoroto Atma (Dancing Souls)",
-    description: [
-      {
-        children: [
-          {
-            text: "This piece captures the soul in motion—fluid, weightless, and endlessly connected. It’s maybe  a reflection of our inner rhythm."
-          }
-        ]
-      }
-    ],
-    artTextures: [
-      "https://ik.imagekit.io/5lfj67b0tg/New%20folder/MONOPRINTS/12/close%20ups/IMG_1432.JPG?updatedAt=1745314137057",
-    ],
-    series: "Monoprint Series",
-    coverImage: "https://ik.imagekit.io/5lfj67b0tg/New%20folder/MONOPRINTS/12/_Nrittoroto%20Atma_%20(Dancing%20Souls)%20.JPG?updatedAt=1744740004621",
-    
-  },
 ];
