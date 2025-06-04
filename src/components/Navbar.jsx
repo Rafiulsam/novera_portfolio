@@ -23,8 +23,7 @@ const Navbar = () => {
       if (section) {
         section.scrollIntoView({ behavior: "smooth" });
       }
-    }
-    setIsOpen(false);
+    };
   };
 
   return (
@@ -79,8 +78,8 @@ const Navbar = () => {
               <motion.button
                 whileTap={{ scale: 0.95 }}
                 key={link.name}
-                onClick={() =>
-                  link.path ? navigate(link.path) : scrollToSection(link.id)
+                onClick={() =>{setIsOpen(false)
+                  link.path ? navigate(link.path) : scrollToSection(link.id)}
                 }
                 className="block w-full text-white font-medium"
               >

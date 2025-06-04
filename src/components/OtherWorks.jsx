@@ -16,12 +16,13 @@ const OtherWorks = () => {
     const settings = {
         dots: false,
         infinite: true,
-        speed: 1000,
+        speed: 2000,
         slidesToShow: 4,
         slidesToScroll: 1,
         autoplay: true,
-        autoplaySpeed: 3000,
+        autoplaySpeed: 2000,
         pauseOnHover: true,
+        cssEase: "linear",
         responsive: [
             {
                 breakpoint: 1024,
@@ -34,6 +35,7 @@ const OtherWorks = () => {
                 settings: {
                     arrows: false,
                     slidesToShow: 1,
+                    centerMode: true,
                 },
             },
         ],

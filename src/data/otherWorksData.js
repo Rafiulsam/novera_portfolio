@@ -34,7 +34,7 @@ export default [
         ]
     },
     {
-        title: "Tow Sisters",
+        title: "Two Sisters",
         media: "Screen Print or Serigraphy",
         coverImage:"https://ik.imagekit.io/5lfj67b0tg/New%20folder/SCREEN%20PRINT%20or%20SERIGRAPHY/1/IMG_1366.JPG?tr=w-250,q-60,fo-auto",
         artWorks:[
